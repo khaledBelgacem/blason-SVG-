@@ -20,26 +20,39 @@ Lien vers Tutorial et Documentation SVG :
 
 Objectifs:  
 
-À partir du langage de description de blason fournit, le but serai de transformer cette description au format SVG correspondant à cette dernière, en créant un compilateur ou un interprète.
-La compilation devrai nous permettre de concaténer deux blason (les superposés) et ceci, de façon récursive afin de pouvoir construire un blason à partir d’autre blason constitué eux même de blasons pouvant être des figures simples ou composé à leurs tours. 
+À partir du langage de description de blason fournit, le but serai de transformer cette description au format SVG correspondant
+à cette dernière, en créant un compilateur ou un interprète.
+La compilation devrai nous permettre de concaténer deux blason (les superposés) et ceci, de façon récursive afin de pouvoir 
+construire un blason à partir d’autre blason constitué eux même de blasons pouvant être des figures
+simples ou composé à leurs tours. 
 L’objectif étant de pouvoir tirer profit des possibilités que nous offre le format SVG ainsi que la qualité de ces images.
 
 Acknowledgement:  
 
-Un outil similaire existe déjà et qui a comme sortie le format d’image png. Une des sorties intermédiaire du compilateur de cette outils, est le langage de description de blason, détaillé et enrichi par des coordonnée de situation, et qui permet aussi de récupérer les zones libre ou chargé ainsi que leurs formes. Cette partie sera retenue et sera notre point de départ. 
+Un outil similaire existe déjà et qui a comme sortie le format d’image png. Une des sorties intermédiaire du compilateur de 
+cette outils, est le langage de description de blason, détaillé et enrichi par des coordonnée de situation, et qui permet
+aussi de récupérer les zones libre ou chargé ainsi que leurs formes. Cette partie sera retenue et sera notre point de départ. 
 
 Problèmes : 
 
-Après études du format SVG et de ces possibilité, il s’est avéré que la difficulté ne se trouvée pas dans la traduction du langage formel de description de blason vers le langage SVG, mais plutôt dans la façon de situer les éléments par rapport à leurs espaces (les positionnée par rapport à l’espace libre et occupée etc.) 
-Ayant comme entrée, l’ensemble des figures, ainsi qu’un outil nous permettant de trouver les zones libres et les zones occupée, il faudrait trouver un algorithme de positionnement générique optimisé et l’intégré à un compilateur vers SVG 
+Après études du format SVG et de ces possibilité, il s’est avéré que la difficulté ne se trouvée pas dans la traduction du 
+langage formel de description de blason vers le langage SVG, mais plutôt dans la façon de situer les éléments par rapport 
+à leurs espaces (les positionnée par rapport à l’espace libre et occupée etc.) 
+Ayant comme entrée, l’ensemble des figures, ainsi qu’un outil nous permettant de trouver les zones libres et
+les zones occupée, il faudrait trouver un algorithme de positionnement générique optimisé et l’intégré à un compilateur
+vers SVG 
 
 Solution: 
 
-Piste 1 : normaliser la taille de toutes les figures, elle seront ensuite agrandi ou rétréci , ainsi que transformer si nécessaire pour bien ce positionnée . 
+Piste 1 : normaliser la taille de toutes les figures, elle seront ensuite agrandi ou rétréci , ainsi que 
+transformer si nécessaire pour bien ce positionnée . 
 Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement.
 Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap).
-Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités de SVG (exemple avec dash-array développer en Index A).
-Piste 5 : travailler sur une matrice détailler, trouver le centre du rectangle ou cercle minimum de la figure ainsi que celle de la surface et les superposé (rétrécir la taille de la figure si le conteneur de celle si est plus grand que celui de la surface ) (les conteneur des deux doivent être le même ).
+Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités
+de SVG (exemple avec dash-array développer en Index A).
+Piste 5 : travailler sur une matrice détailler, trouver le centre du rectangle ou cercle minimum de la figure 
+ainsi que celle de la surface et les superposé (rétrécir la taille de la figure si le conteneur de celle si est
+plus grand que celui de la surface ) (les conteneur des deux doivent être le même ).
 
 
 
