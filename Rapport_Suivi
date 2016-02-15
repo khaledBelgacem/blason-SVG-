@@ -5,12 +5,22 @@ Première séance :
 	Introduction du problème
 
 Deuxième séance :  
-  Briefing sur ce qui existe déjà 
-  Développement du problème 
-  Mise en point sur les fonctionnalités de SVG qui s’appliquerai à l’héraldique 
-  Proposition de solution variée 
-  Choix d’une solution a développé 
-
+	Briefing sur ce qui existe déjà 
+	Développement du problème 
+  	Mise en point sur les fonctionnalités de SVG qui s’appliquerai à l’héraldique 
+  	Proposition de solution variée 
+  	Choix d’une solution a développé 
+Troisiéme séance : 
+	choix des point de démarrage : 
+		-figures complex donnée ( sous forme d'ensemble de points) 
+		-input = langage de description de blason enrichi ( par les situation , les zones d'emprise et de déprise) 
+	discussion objectif de la semaine : 
+		créer manuellement des blason en SVG , chercher les régles communes qu'on pourrait automatisé 
+		définir le fonctionnement des instructions chargé et accompagné
+		commencer par les piéce honorables simple (bande , croix ...) 
+	Objectif à long terme : 
+		trouver le centre d'une quelquonque figure 
+		
 Lien vers l’article introduisant l’héraldique et sa formalisation en langage informatique :
   http://jfla.inria.fr/2010/actes/PDF/manoury.pdf
 Lien vers Tutorial et Documentation SVG :
@@ -45,11 +55,11 @@ vers SVG
 Solution: 
 
 Piste 1 : normaliser la taille de toutes les figures, elle seront ensuite agrandi ou rétréci , ainsi que 
-transformer si nécessaire pour bien ce positionnée . 
+transformer si nécessaire pour bien ce positionnée . //non retenu , toutes les figures n'on pas les mêmes proportions 
 Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement.
-Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap).
-Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités
-de SVG (exemple avec dash-array développer en Index A).
+Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap). // non retenu , lourd 
+Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités 
+de SVG (exemple avec dash-array développer en Index A). 
 Piste 5 : travailler sur une matrice détailler, trouver le centre du rectangle ou cercle minimum de la figure 
 ainsi que celle de la surface et les superposé (rétrécir la taille de la figure si le conteneur de celle si est
 plus grand que celui de la surface ) (les conteneur des deux doivent être le même ).
