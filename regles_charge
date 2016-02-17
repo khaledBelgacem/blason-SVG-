@@ -1,5 +1,5 @@
 on n le nombre de figures à chargé 
-base.x et base.y les point représentant le debut de l'écu 
+base.x et base.y les point représentant le debut de la piéce à chargée 
 base.width et base.height la largeur et la hauteur de l'écu 
 on donne i le numero de la figure courante a placer avec i entre 1 et n 
 
