@@ -20,6 +20,14 @@ Troisiéme séance :
 		commencer par les piéce honorables simple (bande , croix ...) 
 	Objectif à long terme : 
 		trouver le centre d'une quelquonque figure 
+Quatriéme séance : 
+	discussion des deux régles de chargement proposé : 
+		-charger en decoupant la la piéce en zone puis en trouvant le centre des zones 
+		-charger en trouvant l'envloppe convex de la piéce et de la figure pour superposer leurs centre 
+	discussion des solution proposé pour avoir la bonne taille de la figure une fois cette derniére charger :
+		-agrandir la figure jusqu'a ce qu'elle touche les bords d'une piéce en utilisant les droites directives 
+	discussion des contraintes et cas particulier :
+		-le cas du chevron , le cas de la croix et du sautoir , les cas particuliers etc 
 		
 Lien vers l’article introduisant l’héraldique et sa formalisation en langage informatique :
   http://jfla.inria.fr/2010/actes/PDF/manoury.pdf
@@ -56,11 +64,12 @@ Solution:
 
 Piste 1 : normaliser la taille de toutes les figures, elle seront ensuite agrandi ou rétréci , ainsi que 
 transformer si nécessaire pour bien ce positionnée . //non retenu , toutes les figures n'on pas les mêmes proportions 
-Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement.
+Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement. // debut du développement de cette solution 
 Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap). // non retenu , lourd 
 Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités 
-de SVG (exemple avec dash-array développer en Index A). 
-Piste 5 : travailler sur une matrice détailler, trouver le centre du rectangle ou cercle minimum de la figure 
+de SVG // formule trouver pour bande et fasce qui peuvent donc s'appliquer au autre piéce par translation ou rotation (voir dossier Simple charger methode formule... 
+et le fichier regles charger formule centre zone ) . 
+Piste 5 : travailler avec des conteneurs,  trouver le centre du rectangle ou cercle minimum de la figure 
 ainsi que celle de la surface et les superposé (rétrécir la taille de la figure si le conteneur de celle si est
 plus grand que celui de la surface ) (les conteneur des deux doivent être le même ).
 
