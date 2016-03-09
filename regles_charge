@@ -1,9 +1,0 @@
-on n le nombre de figures à chargé 
-base.x et base.y les point représentant le debut de la piéce à chargée 
-base.width et base.height la largeur et la hauteur de l'écu 
-on donne i le numero de la figure courante a placer avec i entre 1 et n 
-
-chargée une fasce : 
-Centre figure i  = base.x + (base.width/(n+1))*i 
-chargée une bande : 
-centre fig i = base.x + (base.width/(n+1))*i ,  base.y + (base.height/(n+1))*i  
