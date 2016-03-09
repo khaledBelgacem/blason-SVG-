@@ -1,5 +1,6 @@
 package heraldique.generique;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import geometry.real.ConvexPolygon;
@@ -7,6 +8,8 @@ import geometry.real.Line;
 import geometry.real.Point;
 import geometry.real.Precision;
 import geometry.real.Vector;
+import heraldique.Besant;
+import heraldique.Tourteau;
 import heraldique.enumeration.Email;
 import heraldique.enumeration.Metal;
 
@@ -141,7 +144,32 @@ public class Support extends ConvexPolygon {
 		coefficient = base.length()/rayon.length();
 		homothetie(coefficient);
 	}
-	
+	public void charge(Besant b){
+		ArrayList<Point>disk = new ArrayList<Point>() ; 
+		disk.add(b.getCentre()) ; 
+		disk.add(new Point(b.getCentre().x(),b.getCentre().y()+b.getRayon())) ; 
+		disk.add(new Point(b.getCentre().x(),b.getCentre().y()-b.getRayon())) ; 
+		disk.add(new Point(b.getCentre().x()+b.getRayon(),b.getCentre().y())) ; 
+		disk.add(new Point(b.getCentre().x()-b.getRayon(),b.getCentre().y())) ; 
+		Support besant = new Support(disk,b.getMetal())  ; 
+		dessus = besant ; 
+		besant.dessous = this ; 
+		centrer(besant) ;
+		besant.adapter(); 
+	}
+	public void charge(Tourteau b){
+		ArrayList<Point>disk = new ArrayList<Point>() ; 
+		disk.add(b.getCentre()) ; 
+		disk.add(new Point(b.getCentre().x(),b.getCentre().y()+b.getRayon())) ; 
+		disk.add(new Point(b.getCentre().x(),b.getCentre().y()-b.getRayon())) ; 
+		disk.add(new Point(b.getCentre().x()+b.getRayon(),b.getCentre().y())) ; 
+		disk.add(new Point(b.getCentre().x()-b.getRayon(),b.getCentre().y())) ; 
+		Support tourt = new Support(disk,b.getEmail())  ; 
+		dessus = tourt ; 
+		tourt.dessous = this ; 
+		centrer(tourt) ;
+		tourt.adapter(); 
+	}
 	public void charge(Support support) {
 		dessus = support;
 		support.dessous = this;
