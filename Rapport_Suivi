@@ -28,7 +28,26 @@ Quatriéme séance :
 		-agrandir la figure jusqu'a ce qu'elle touche les bords d'une piéce en utilisant les droites directives 
 	discussion des contraintes et cas particulier :
 		-le cas du chevron , le cas de la croix et du sautoir , les cas particuliers etc 
-		
+Cinquiéme séance : 
+	proposition de solution de chargements 
+		-chargé une piéce en plaçant la figure au centre et en changeant la taille de cette derniére 
+		jusqu'a ce qu'au moin un point de la figure touche les rebord de la piéce.
+	discussion autour des correction de la solution proposé 
+		-laisser une marge lors de changement de taille de la figure chargé ( elle ne doit pas toucher le rebords ) 
+		-pouvoir charger une piéce par elle même d'une façon proportionelle 
+		-changé la taille des piéce chargé proportionellement à la taille de l'écu à charger .
+	dicussion d'une solution 
+		-pour chargé plusieurs figures , disposé d'abord les figures selon la disposition indiqué ( en pal , en fasce , 
+		en rangé etc ) est apliquer le chargement au groupe de figures en tant qu'une seule et même figure .
+		-accompagné correspondra au chargement dans les zones de déprise . 
+	discussion autour des zones de déprise :
+		-comment reconnaitres les zones, comment les enumerer 
+		-le calcule de la zone doit ce faire par rapport à la bonne piéce/figures et donc prise en compte
+		du "calque"/"canvas" pére. 
+	discussion autour du passage entre le langage source au format svg 
+	objectif pour la prochaine séance : 
+	finir le modules chargé et rajouter le module accompagné ainsi que la gestion de plusieurs figures à charger/accompagné
+
 Lien vers l’article introduisant l’héraldique et sa formalisation en langage informatique :
   http://jfla.inria.fr/2010/actes/PDF/manoury.pdf
 Lien vers Tutorial et Documentation SVG :
@@ -63,15 +82,18 @@ vers SVG
 Solution: 
 
 Piste 1 : normaliser la taille de toutes les figures, elle seront ensuite agrandi ou rétréci , ainsi que 
-transformer si nécessaire pour bien ce positionnée . //non retenu , toutes les figures n'on pas les mêmes proportions 
-Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement. // debut du développement de cette solution 
-Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap). // non retenu , lourd 
+transformer si nécessaire pour bien ce positionnée .
+//non retenu , toutes les figures n'on pas les mêmes proportions 
+Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement. 
+// debut du développement de cette solution 
+Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap). 
+// non retenu , lourd 
 Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités 
-de SVG // formule trouver pour bande et fasce qui peuvent donc s'appliquer au autre piéce par translation ou rotation (voir dossier Simple charger methode formule... 
-et le fichier regles charger formule centre zone ) . 
+de SVG 
+// formule trouver pour bande et fasce qui peuvent donc s'appliquer au autre piéce par translation
+//ou rotation (voir dossier Simple charger methode formule... et le fichier regles charger formule centre zone ) . 
 Piste 5 : travailler avec des conteneurs,  trouver le centre du rectangle ou cercle minimum de la figure 
 ainsi que celle de la surface et les superposé (rétrécir la taille de la figure si le conteneur de celle si est
 plus grand que celui de la surface ) (les conteneur des deux doivent être le même ).
-
 
 
