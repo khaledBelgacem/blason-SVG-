@@ -3,4 +3,5 @@ git clone https://github.com/khaledBelgacem/blason-SVG-.git  //telecharger le re
 git status :  voir on est sur quel branche et si on peut ajouter  dessus
 git add nomFichier ou nomDossier // le git prendra en considération ce fichier du repertoire courant 
 git commit// ajout sur la branche courante et fusionne les nouveau fichier au anciens + ecrire un commentaire la raison du commit
-git pushy // valider en entrant vos login et mot de passe
+git push // valider en entrant vos login et mot de passe 
+eventuellement faire : git pull , avant pour avoir les derniére mise a jour du git 
