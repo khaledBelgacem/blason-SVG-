@@ -17,7 +17,9 @@ public class ConvexPolygon {
 	 * @param points Une liste de points
 	 */
 	public ConvexPolygon(ArrayList<Point> points) {
-		this.points = jarvis(new ArrayList<Point>(points));
+		if (points != null)
+			if (!points.isEmpty())
+				this.points = jarvis(new ArrayList<Point>(points));
 	}
 	
 	protected ConvexPolygon() {

@@ -15,7 +15,7 @@ public class Support extends ConvexPolygon {
 	protected Email email;
 	protected Metal metal;
 	protected Support dessous;
-	protected Support dessus;
+	public Support dessus;
 	
 	public Support() {
 		super(new ArrayList<Point>());

@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='2000' height='2000'>
+	<path d="M 0.0 0.0 L 700.0 0.0 L 700.0 800.0 L 0.0 800.0 Z" stroke="yellow" fill="yellow"/><path d="M 5.6843418860808015E-14 176.37325830654092 L 174.81243301178674 23.412379421221203 L 700.0000000000055 623.6267416934647 L 525.1875669882188 776.5876205787845 Z" stroke="blue" fill="blue"/><circle cx="350.00000000000273" cy="400.00000000000284" r="1" stroke="red" stroke-width="3" fill="red" /><circle cx="350.0" cy="400.0" r="1" stroke="red" stroke-width="3" fill="red" /></svg>
