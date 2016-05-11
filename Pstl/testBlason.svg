@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='2000' height='2000'>
+	
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur blue
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 " stroke="blue" fill="blue"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur white
+<path d="M 0.0 35.0 L 100.0 35.0 L 100.0 65.0 L 0.0 65.0 " stroke="white" fill="white"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 35.0 L 0.0 35.0 " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur yellow
+<path d="M 50.0 3.500000000000007 L 53.18181818181818 13.045454545454557 L 62.72727272727273 13.045454545454557 L 56.36363636363636 19.40909090909092 L 59.54545454545455 28.954545454545467 L 50.0 22.590909090909104 L 40.45454545454545 28.954545454545467 L 43.63636363636364 19.40909090909092 L 37.27272727272727 13.045454545454557 L 46.81818181818182 13.045454545454557 " stroke="yellow" transform="rotate(45,49.99999999999999,17.50000000000001)" fill="yellow"/></svg>

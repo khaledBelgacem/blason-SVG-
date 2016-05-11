@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- d'azur a la fasce d'argent charger d'une etoile de gueules -->
+<blason>
+	<charger blit="finale">
+		<champ email="azur">(0,0)(100,0)(0,100)(100,100)</champ>
+	</charger>
+	<charger blit="relatif">
+		<champ email="argent">(0,35)(100,35)(100,65)(0,65)</champ>
+		<figure email="rouge" rotation="bande">(50,50)(100,50)(100,100)</figure>
+	</charger>
+</blason>
