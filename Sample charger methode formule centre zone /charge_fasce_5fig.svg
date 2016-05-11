@@ -1,0 +1,16 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Calque 1</title>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="green" x="200" y="100" width="200" height="200" id="svg_3"/>
+  <polyline stroke="white" stroke-width="65" points="200 200, 400 200 " id="svg_2" stroke-linejoin="mitter"/>
+  <circle cx="234" cy="200" r="13" fill="red" id="svg_4"/>
+  <circle cx="268" cy="200" r="13" fill="red" id="svg_4"/>
+  <circle cx="302" cy="200" r="13" fill="red" id="svg_4"/>
+  <circle cx="336" cy="200" r="13" fill="red" id="svg_4"/>
+  <circle cx="370" cy="200" r="13" fill="red" id="svg_4"/>
+ </g>
+</svg>

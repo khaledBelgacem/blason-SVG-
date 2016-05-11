@@ -1,0 +1,99 @@
+Première séance : 
+	Introduction à l’héraldique et aux blasons 
+	Introduction au langage de description des blasons et à son interprétions algorithmique 
+	Introduction à SVG 
+	Introduction du problème
+
+Deuxième séance :  
+	Briefing sur ce qui existe déjà 
+	Développement du problème 
+  	Mise en point sur les fonctionnalités de SVG qui s’appliquerai à l’héraldique 
+  	Proposition de solution variée 
+  	Choix d’une solution a développé 
+Troisiéme séance : 
+	choix des point de démarrage : 
+		-figures complex donnée ( sous forme d'ensemble de points) 
+		-input = langage de description de blason enrichi ( par les situation , les zones d'emprise et de déprise) 
+	discussion objectif de la semaine : 
+		créer manuellement des blason en SVG , chercher les régles communes qu'on pourrait automatisé 
+		définir le fonctionnement des instructions chargé et accompagné
+		commencer par les piéce honorables simple (bande , croix ...) 
+	Objectif à long terme : 
+		trouver le centre d'une quelquonque figure 
+Quatriéme séance : 
+	discussion des deux régles de chargement proposé : 
+		-charger en decoupant la la piéce en zone puis en trouvant le centre des zones 
+		-charger en trouvant l'envloppe convex de la piéce et de la figure pour superposer leurs centre 
+	discussion des solution proposé pour avoir la bonne taille de la figure une fois cette derniére charger :
+		-agrandir la figure jusqu'a ce qu'elle touche les bords d'une piéce en utilisant les droites directives 
+	discussion des contraintes et cas particulier :
+		-le cas du chevron , le cas de la croix et du sautoir , les cas particuliers etc 
+Cinquiéme séance : 
+	proposition de solution de chargements 
+		-chargé une piéce en plaçant la figure au centre et en changeant la taille de cette derniére 
+		jusqu'a ce qu'au moin un point de la figure touche les rebord de la piéce.
+	discussion autour des correction de la solution proposé 
+		-laisser une marge lors de changement de taille de la figure chargé ( elle ne doit pas toucher le rebords ) 
+		-pouvoir charger une piéce par elle même d'une façon proportionelle 
+		-changé la taille des piéce chargé proportionellement à la taille de l'écu à charger .
+	dicussion d'une solution 
+		-pour chargé plusieurs figures , disposé d'abord les figures selon la disposition indiqué ( en pal , en fasce , 
+		en rangé etc ) est apliquer le chargement au groupe de figures en tant qu'une seule et même figure .
+		-accompagné correspondra au chargement dans les zones de déprise . 
+	discussion autour des zones de déprise :
+		-comment reconnaitres les zones, comment les enumerer 
+		-le calcule de la zone doit ce faire par rapport à la bonne piéce/figures et donc prise en compte
+		du "calque"/"canvas" pére. 
+	discussion autour du passage entre le langage source au format svg 
+	objectif pour la prochaine séance : 
+	finir le modules chargé et rajouter le module accompagné ainsi que la gestion de plusieurs figures à charger/accompagné
+
+Lien vers l’article introduisant l’héraldique et sa formalisation en langage informatique :
+  http://jfla.inria.fr/2010/actes/PDF/manoury.pdf
+Lien vers Tutorial et Documentation SVG :
+  SVG Tutorial : https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+  SVG documentation : https://developer.mozilla.org/en-US/docs/Web/SVG/Element
+  SVG full doc : https://www.w3.org/TR/SVG/intro.html
+
+Objectifs:  
+
+À partir du langage de description de blason fournit, le but serai de transformer cette description au format SVG correspondant
+à cette dernière, en créant un compilateur ou un interprète.
+La compilation devrai nous permettre de concaténer deux blason (les superposés) et ceci, de façon récursive afin de pouvoir 
+construire un blason à partir d’autre blason constitué eux même de blasons pouvant être des figures
+simples ou composé à leurs tours. 
+L’objectif étant de pouvoir tirer profit des possibilités que nous offre le format SVG ainsi que la qualité de ces images.
+
+Acknowledgement:  
+
+Un outil similaire existe déjà et qui a comme sortie le format d’image png. Une des sorties intermédiaire du compilateur de 
+cette outils, est le langage de description de blason, détaillé et enrichi par des coordonnée de situation, et qui permet
+aussi de récupérer les zones libre ou chargé ainsi que leurs formes. Cette partie sera retenue et sera notre point de départ. 
+
+Problèmes : 
+
+Après études du format SVG et de ces possibilité, il s’est avéré que la difficulté ne se trouvée pas dans la traduction du 
+langage formel de description de blason vers le langage SVG, mais plutôt dans la façon de situer les éléments par rapport 
+à leurs espaces (les positionnée par rapport à l’espace libre et occupée etc.) 
+Ayant comme entrée, l’ensemble des figures, ainsi qu’un outil nous permettant de trouver les zones libres et
+les zones occupée, il faudrait trouver un algorithme de positionnement générique optimisé et l’intégré à un compilateur
+vers SVG 
+
+Solution: 
+
+Piste 1 : normaliser la taille de toutes les figures, elle seront ensuite agrandi ou rétréci , ainsi que 
+transformer si nécessaire pour bien ce positionnée .
+//non retenu , toutes les figures n'on pas les mêmes proportions 
+Piste 2 : calculer l’enveloppe convexe des figures, et les déplacer jusqu’à collision puis faire un ajustement. 
+// debut du développement de cette solution 
+Piste 3 : associé une position par défaut pour chaque surface et figures (bibliothèque de hashmap). 
+// non retenu , lourd 
+Piste 4 : trouver les formules correspondantes à chaque type de figure pour utiliser les possibilités 
+de SVG 
+// formule trouver pour bande et fasce qui peuvent donc s'appliquer au autre piéce par translation
+//ou rotation (voir dossier Simple charger methode formule... et le fichier regles charger formule centre zone ) . 
+Piste 5 : travailler avec des conteneurs,  trouver le centre du rectangle ou cercle minimum de la figure 
+ainsi que celle de la surface et les superposé (rétrécir la taille de la figure si le conteneur de celle si est
+plus grand que celui de la surface ) (les conteneur des deux doivent être le même ).
+
+
