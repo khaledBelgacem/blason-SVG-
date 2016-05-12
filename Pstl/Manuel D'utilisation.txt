@@ -1,0 +1,29 @@
+Mannuel d'utilisation :
+Pour décrire un blason : 
+balise :
+<blason>, englobe le tout 
+ces attributs : 
+description="texte" , la description du blason qui sera afficher sur la sortie standard su programme 
+balise : 
+<charger> , balise principale pour chargé les champ et figures 
+Peut contenir soit un champ, soit une un champs et une figure , soit seulement une figure dans le cas des echequier 
+Pas d'attributs 
+balise :
+<champ> , correspond à une piéce ou une zone qui sera placé tel quel sur l'écu(avec les valeurs absolus) 
+la valeur est une liste de point entre parenthése (x,y)(w,z)....
+attributs : 
+type="" , facultatif 
+les type existant sont :  "echequier"
+email =""  , obligatoire 
+les emails reconnu sont: "rouge" "or" "argent" "sable" "azur" 
+emailImpair="" , emailPair="", facultatif, seulement quand c'est un echequier 
+balise :
+<figure>, correspond à une figure qui sera modifier lors du chargement 
+attributs : 
+type="" , obligatoire 
+les types sont : "svg" et "poly", au cas ou le type serai svg , la valuer et le nom du fichier (les fichiers ce trouve dans imageSVG)
+au cas ou le type serai poly, la valeur est une liste de point entre parenthése (x,y)(w,z)....
+email="" comme pour champ 
+cible="" , au cas ou l'écu est un echequier , cible permet de determiner les partie qui seront charger . 
+"pair" pour charger toutes les cases pair, "impair" pour l'inverse et "x"  ou x et le numero de la case qu'on veut charger 
+les case sont numérot de haut en bas , de gauche a droite , le coin supérieur gauche étant 1, le coin inferieur gauche 5, le coin superieur droit 21 etc
