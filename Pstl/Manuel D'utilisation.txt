@@ -1,4 +1,5 @@
 Mannuel d'utilisation :
+//voir le dossier samplesXML pour avoir des exemples d'utilisation
 Pour décrire un blason : 
 balise :
 <blason>, englobe le tout 
