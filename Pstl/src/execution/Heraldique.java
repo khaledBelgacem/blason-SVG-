@@ -1,23 +1,22 @@
 package execution;
 
-import geometry.real.Point;
-import heraldique.Ecu;
-import heraldique.Etoile;
-import heraldique.Pal;
-import heraldique.enumeration.Email;
-import heraldique.enumeration.Metal;
-import heraldique.generique.Groupe;
-import heraldique.generique.Support;
+import java.io.File;
 
-import java.util.ArrayList;
-
-import javax.swing.text.html.FormSubmitEvent.MethodType;
-import heraldique.generique.*;
+import heraldique.generique.BlasonXml;
 public class Heraldique {
 
 	public static void main(String[] args) {
-	
+		BlasonXml bl ; 
 		//programme principale 
-		BlasonXml bl = new BlasonXml() ;
+		String [] listeFichiers = listerRepertoire("samplesXML/") ; 
+		for(String fb : listeFichiers)
+			bl = new BlasonXml(fb) ;
+	}
+	public static String[] listerRepertoire(String repertoire){
+		File sampleDir=new File(repertoire);
+		String[] listefichiers ; 
+		int i;
+		listefichiers=sampleDir.list();
+		return listefichiers;
 	}
 }

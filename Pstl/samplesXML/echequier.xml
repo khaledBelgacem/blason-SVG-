@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<blason description="echquier d'or et de gueules , chargé d'étoile d'argent sur les 4 coin">
+	<charger>
+		<champ type ="echequier" emailImpair="rouge" emailPair="or">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+	<charger>
+		<figure cible="1" email="argent">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+	</charger>
+	<charger>
+		<figure cible="5" email="argent">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+	</charger>
+	<charger>
+		<figure cible="21" email="argent">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+	</charger>
+	<charger>
+		<figure cible="25" email="argent">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+	</charger>
+</blason>

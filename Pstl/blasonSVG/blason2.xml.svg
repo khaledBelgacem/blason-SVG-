@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='2000' height='2000'>
+	<g transform="scale(10)">
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 Z " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur blue
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 Z " stroke="blue" fill="blue"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 Z " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 35.0 L 0.0 35.0 Z " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur red
+<path d="M 50.0 3.500000000000007 L 53.18181818181818 13.045454545454557 L 62.72727272727273 13.045454545454557 L 56.36363636363636 19.40909090909092 L 59.54545454545455 28.954545454545467 L 50.0 22.590909090909104 L 40.45454545454545 28.954545454545467 L 43.63636363636364 19.40909090909092 L 37.27272727272727 13.045454545454557 L 46.81818181818182 13.045454545454557 Z " stroke="red" fill="red"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 Z " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur white
+<path d="M 0.0 35.0 L 100.0 35.0 L 100.0 65.0 L 0.0 65.0 Z " stroke="white" fill="white"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0 L 100.0 0.0 L 100.0 100.0 L 0.0 100.0 Z " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 65.0 L 100.0 65.0 L 100.0 100.0 L 0.0 100.0 Z " stroke="rgba(0,0,0,0)" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur red
+<path d="M 50.0 68.49999999999997 L 53.18181818181818 78.0454545454545 L 62.72727272727271 78.0454545454545 L 56.36363636363636 84.40909090909086 L 59.54545454545453 93.9545454545454 L 50.0 87.59090909090904 L 40.45454545454547 93.9545454545454 L 43.63636363636364 84.40909090909086 L 37.27272727272729 78.0454545454545 L 46.81818181818182 78.0454545454545 Z " stroke="red" fill="red"/></g></svg>

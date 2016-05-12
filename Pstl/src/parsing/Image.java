@@ -9,7 +9,9 @@ import geometry.real.Point;
 
 public class Image extends ArrayList<Superposable> implements Superposable {
 
-	double largeur, hauteur;
+	public double largeur;
+
+	public double hauteur;
 
 	private static final long serialVersionUID = 7039488098500510177L;
 
@@ -41,7 +43,6 @@ public class Image extends ArrayList<Superposable> implements Superposable {
 			try {
 				Forme f = (Forme)s;	
 				for (Object st : f){
-					System.out.println(st);
 					if(st.toString().startsWith("(")){
 						String p1 = st.toString().split(",")[0];
 						p1=p1.replace('(', ' ');

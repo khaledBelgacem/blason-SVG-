@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
-<!-- d'azur a la fasce d'argent acompagné en chef et en pointe d'une etoile de gueule -->
-<blason>
-	<charger blit="relatif">
-		<figure email="rouge">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
-		<champ email="azur">(0,0)(100,0)(0,35)(100,35)</champ>
+<blason description="d'azur a la fasce d'argent acompagné en chef et en pointe d'une etoile de gueule">
+<charger>
+	<champ email="azur">(0,0)(100,0)(100,100)(0,100)</champ>
+</charger>
+	<charger >
+		<champ email="transparent">(0,0)(100,0)(0,35)(100,35)</champ>
+		<figure type="poly" email="rouge">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
 	</charger>
-	<charger blit="finale">
+	<charger>
 		<champ email="argent">(0,35)(100,35)(100,65)(0,65)</champ>
 	</charger>
-	<charger blit="relatif">
-		<figure email="rouge">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
-		<champ email="azur">(0,100)(100,100)(100,65)(0,65)</champ>
+	<charger>
+		<champ email="transparent">(0,65)(100,65)(100,100)(0,100)</champ>
+		<figure type="poly" email="rouge">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
 	</charger>
 </blason>

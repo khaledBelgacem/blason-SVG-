@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<!-- d'azur au chevron d'or accompagné de trois étoiles d'argent  -->
-<blason>
-	<charger blit="finale">
+<blason description=" d'azur au chevron d'or accompagné de trois étoiles d'argent ">
+	<charger>
+	<champ email="azur">(0,0)(0,100)(100,100)(100,0)</champ>
+	</charger>
+	<charger>
 		<champ email="argent">(0,80)(0,100)(10,100)(50,70)(90,100)(100,100)(100,80)(50,30)</champ>
 	</charger>
-	<charger blit="relatif">
-		<figure email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
-		<champ email="azur">(0,0)(50,0)(50,30)(0,80)</champ>
+	<charger>
+		<champ email="transparent">(0,0)(50,0)(50,30)(0,80)</champ>
+		<figure type="poly" email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
 	</charger>
-	<charger blit="relatif">
-		<figure email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
-		<champ email="azur">(50,0)(100,0)(100,80)(50,30)</champ>
+	<charger>
+		<champ email="transparent">(50,0)(100,0)(100,80)(50,30)</champ>
+		<figure type="poly" email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
 	</charger>
-	<charger blit="relatif">
-		<figure email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
-		<champ email="azur">(20,100)(50,70)(80,100)(30,100)</champ>
+	<charger>
+		<champ email="transparent">(20,100)(50,70)(80,100)</champ>
+		<figure type="poly" email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
 	</charger>
-	
 </blason>
-<!-- quand le finale etait en dernier il y a eu un mauvais resultat  -->

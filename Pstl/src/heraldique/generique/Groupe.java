@@ -8,11 +8,11 @@ public class Groupe extends ArrayList<Support> {
 	
 	public String svg() {
 		StringBuffer sb =new StringBuffer(); 
-		
+		sb.append("<g transform=\"scale(10)\">");
 		for (Support s : this) {
 			sb.append(s.svg());
 		}
-		
+		sb.append("</g>");
 		return sb.toString();
 	}
 	

@@ -1,6 +1,5 @@
 package heraldique.generique;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import geometry.real.ConvexPolygon;
@@ -302,16 +301,15 @@ public class Support extends ConvexPolygon {
 		double coeff ; 
 		dessus = support;
 		support.dessous = this;
-		if (flag==1){ //une figure a  adapter	
+		if (flag==1){ //une figure a  adapter
 			centrer(support);
 			coeff=support.adapter();
 			support.points = support.originalPoints ; 
 			centrer(support)  ;
 			support.homothetie(coeff);
-
 		}
-		else // un support on ne change pas ca taille 
-			return ;
+		//else // un support on ne change pas ca taille 
+			//support.points = support.originalPoints ; 
 
 	}
 
@@ -320,7 +318,6 @@ public class Support extends ConvexPolygon {
 
 	public String svg() {
 		StringBuffer sb = new StringBuffer();
-
 		String couleur = TraducteurEmail.couleur(email) + TraducteurMetal.couleur(metal);
 		if (email == Email.AUCUN && metal == Metal.AUCUN)
 			couleur = TraducteurEmail.couleur(email);
@@ -332,33 +329,35 @@ public class Support extends ConvexPolygon {
 		sb.append("\n//nouvelle forme de couleur "+couleur+"\n"); 
 		sb.append("<path d=");
 		if(this.forme.size()==0){
-			sb.append("\"M " + points().get(0).x() + " " + points().get(0).y());
-			for (i = debut+1; i < points().size(); i++)
-				sb.append(" L " + points().get(i).x() + " " + points().get(i).y());
+			sb.append("\"M " + this.points.get(0).x() + " " + this.points.get(0).y());
+			for (i = debut+1; i < this.points.size(); i++)
+				sb.append(" L " + this.points.get(i).x() + " " + this.points.get(i).y());
 		}
 		else {
 			int idf=0;  
 			int idp=0 ; 
-			sb.append("\""); 
+			sb.append("\"M " );
+			//sb.append("\""); 
 			while(idf<forme.size()){
-				if(forme.get(idf).startsWith("(")){
-					sb.append(points().get(idp).x() + " " + points().get(idp).y());
-					idp++; 
-					idf++;
-
+				try
+				{
+				  Double.parseDouble(forme.get(idf).split(",")[0]);
+				  sb.append(this.points.get(idp).x() + " " + this.points.get(idp).y());
+					idp=idp+1; 
+					idf=idf+1;
 				}
-				else{
+				catch(NumberFormatException e)
+				{
 					sb.append(" "+forme.get(idf)+" ");
-					idf++;
-
+					idf=idf+1;
 				}
 			}
 		}
 		if (this.rotation!=0){
-			sb.append(" \" stroke=\"" + couleur + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+			sb.append(" Z \" stroke=\"" + couleur + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
 		}
 		else 
-			sb.append(" \" stroke=\"" + couleur + "\" fill=\"" + couleur + "\"/>");
+			sb.append(" Z \" stroke=\"" + couleur + "\" fill=\"" + couleur + "\"/>");
 		if (dessus != null)
 			sb.append(dessus.svg());
 		return sb.toString();

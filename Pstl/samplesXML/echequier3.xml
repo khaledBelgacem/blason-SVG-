@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<blason
+	description="echquier d'or et d'argent , chargé d'étoile de gueule sur l'argent">
+	<charger>
+		<champ type="echequier" emailImpair="argent" emailPair="azur">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+	<charger>
+		<figure cible="impair" email="rouge">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+	</charger>
+</blason>

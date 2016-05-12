@@ -87,6 +87,7 @@ public class Line extends Vector {
 	 * @return Le point d'intersection
 	 */
 	
+	/*
 	public Point intersect(Line l) {
 		if (!isFunction() && !l.isFunction() && dot(this, l) == 0) {
 			double x, y;
@@ -110,7 +111,7 @@ public class Line extends Vector {
 			return new Point(l.a().x(), ordinate(l.a().x()));
 		Double x = (l.intercept() - intercept()) / (slope() - l.slope());
 		return new Point(x, ordinate(x));		
-	}
+	}*/
 	
 	/***
 	 * 

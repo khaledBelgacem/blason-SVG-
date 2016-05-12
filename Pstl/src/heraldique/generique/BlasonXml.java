@@ -26,21 +26,21 @@ import parsing.Superposable;
 
 public class BlasonXml { 
 	private ArrayList<String> elems ; 
-	public BlasonXml() {
+	public BlasonXml(String fichierBlason) {
 		elems = new ArrayList<String>() ; 
 		try {	
-			File inputFile = new File("samplesXML/blasonTest.xml");
+			File inputFile = new File("samplesXML/"+fichierBlason);
 			DocumentBuilderFactory dbFactory 
 			= DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(inputFile);
 			doc.getDocumentElement().normalize();
-			System.out.println("Root element :" 
-					+ doc.getDocumentElement().getNodeName());
+			System.out.println("Blason :" 
+					+ doc.getDocumentElement().getAttribute("description"));
 			NodeList nList = doc.getElementsByTagName("charger");
 			System.out.println("----------------------------");
 			int blit ; 
-			String champ ; 
+			String champ = null ; 
 			String emailChamp=""; 
 			String emailPair="" ; 
 			String emailImpair="";
@@ -48,6 +48,7 @@ public class BlasonXml {
 			String emailFigure="" ; 
 			String rotation=""; 
 			String cible = "" ; 
+			ArrayList<Support> echec = new ArrayList<Support>() ; 
 			ArrayList<String>forme = new ArrayList<String>();
 			boolean echequier=false ; 
 			boolean svg=false ; 
@@ -56,28 +57,31 @@ public class BlasonXml {
 			Groupe grouper = new Groupe() ; 
 			for (int temp = 0; temp < nList.getLength(); temp++) {
 				Node nNode = nList.item(temp);
-				System.out.println("\nCurrent Element :" 
-						+ nNode.getNodeName());
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 					Element eElement = (Element) nNode;
 					if(eElement.getElementsByTagName("figure").getLength()==1){
 						blit = 1 ;
-						champ = eElement.getElementsByTagName("champ").item(0).getTextContent();
+						if(eElement.getElementsByTagName("champ").item(0)!=null)
+							champ = eElement.getElementsByTagName("champ").item(0).getTextContent();
+						else 
+							if(!echequier)
+								System.out.println("erreur: la balise champs est manquante") ;
 						figure  = eElement.getElementsByTagName("figure").item(0).getTextContent(); 
-						for (int it=0 ; it<eElement.getElementsByTagName("champ").item(0).getAttributes().getLength();it++) {
-							if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="type"){
-								String type = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent();
-								if (type.equals("echequier")){
-									echequier=true ; 
+						if (eElement.getElementsByTagName("champ").item(0)!=null)
+							for (int it=0 ; it<eElement.getElementsByTagName("champ").item(0).getAttributes().getLength();it++) {
+								if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="type"){
+									String type = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent();
+									if (type.equals("echequier")){
+										echequier=true ; 
+									}
 								}
+								else if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="email")
+									emailChamp = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent() ; 
+								else if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="emailImpair")
+									emailImpair = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent() ; 
+								else if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="emailPair")
+									emailPair = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent() ; 
 							}
-							else if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="email")
-								emailChamp = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent() ; 
-							else if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="emailImpair")
-								emailImpair = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent() ; 
-							else if( eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getNodeName()=="emailPair")
-								emailPair = eElement.getElementsByTagName("champ").item(0).getAttributes().item(it).getTextContent() ; 
-						}
 						for (int it=0 ; it<eElement.getElementsByTagName("figure").item(0).getAttributes().getLength();it++) {
 							if( eElement.getElementsByTagName("figure").item(0).getAttributes().item(it).getNodeName()=="rotation") 
 								rotation = eElement.getElementsByTagName("figure").item(0).getAttributes().item(it).getTextContent();
@@ -88,7 +92,6 @@ public class BlasonXml {
 								if(type.equals("svg")){
 									svg=true ; 	
 									figurePoints =svgPoints("imagesSVG/"+figure,forme);
-									System.out.println(figurePoints);
 								}
 							}
 							else if(eElement.getElementsByTagName("figure").item(0).getAttributes().item(it).getNodeName()=="cible"){
@@ -150,50 +153,72 @@ public class BlasonXml {
 						rotation="";
 					}
 					else {
-						ArrayList<Support> echec = new ArrayList<Support>() ; 
 						String color=emailImpair;
-						for(int nbci=0 ; nbci<100;nbci=nbci+20){
-							for(int nbcj=0 ; nbcj<100;nbcj=nbcj+20){
-								champPoints.add(new Point(nbci,nbcj)) ; 
-								champPoints.add(new Point(nbci,nbcj+20)) ; 
-								champPoints.add(new Point(nbci+20,nbcj)) ; 
-								champPoints.add(new Point(nbci+20,nbcj+20)) ; 
-								Support carre=new Support(champPoints,color);
-								echec.add(carre);
-								champPoints.clear();  
-								Ecu ecu= new Ecu(100,100,Metal.AUCUN) ; 
-								if (blit==1) {
-									if (svg==false) {
-										String[] fsplit = figure.split("\\)") ;  
-										for (String s :fsplit) { 
-											String p1 = s.split(",")[0];
-											p1=p1.replace('(', ' ');
-											String p2=s.split(",")[1];
-											figurePoints.add(new Point(Double.parseDouble(p1),Double.parseDouble(p2))) ; 
-										}
-									}
+						int indiceCarre=0;
+						if (echec.size()==0) {
+							for(int nbci=0 ; nbci<100;nbci=nbci+20){
+								for(int nbcj=0 ; nbcj<100;nbcj=nbcj+20){		
+									champPoints.add(new Point(nbci,nbcj)) ; 
+									champPoints.add(new Point(nbci+20,nbcj)) ; 
+									champPoints.add(new Point(nbci+20,nbcj+20)) ; 
+									champPoints.add(new Point(nbci,nbcj+20)) ; 
+									Support carre=new Support(champPoints,color);
+									echec.add(carre);
+									champPoints.clear();
+									if (color.equals(emailImpair))
+										color = emailPair ; 
+									else if(color.equals(emailPair))
+										color = emailImpair ; 
 								}
+							}
+						}
+						if (blit==1) {
+							if (svg==false) {
+								String[] fsplit = figure.split("\\)") ;  
+								for (String s :fsplit) { 
+									String p1 = s.split(",")[0];
+									p1=p1.replace('(', ' ');
+									String p2=s.split(",")[1];
+									figurePoints.add(new Point(Double.parseDouble(p1),Double.parseDouble(p2))) ; 
+								}
+							}
+
+							for(Support carre : echec){
 								Support	sfigure = new Support(figurePoints,emailFigure,rotation);
-								ecu.charge(carre,0);
-								if(cible.equals("impair") && color==emailImpair)
+								Ecu ecu= new Ecu(100,100,Metal.AUCUN) ; 
+								indiceCarre++;
+								if(cible.equals("impair") && color==emailImpair){
 									carre.charge(sfigure,1);
+								}
 								else if(cible.equals("pair") && color==emailPair)
 									carre.charge(sfigure,1);
-								grouper.add(ecu);  
+								else {
+									try{
+										int intCible=Integer.parseInt(cible);
+										if(intCible==indiceCarre){
+											carre.charge(sfigure,1);
+										}
+									}catch(NumberFormatException e){
+
+									}
+								}
 								if (color.equals(emailImpair))
 									color = emailPair ; 
 								else if(color.equals(emailPair))
 									color = emailImpair ; 
+								ecu.charge(carre,0);
+								grouper.add(ecu);
 							}
-						}
-						
-						System.out.println("taille de la liste "+echec.size());
-						
+							champPoints.clear();
+							figurePoints.clear();
+							figure = "" ; 
+							rotation="";
+						}  
 					}
 				}
 			}
-			DrawCanvas.saveAsSVG("testBlason.svg", grouper.svg());
-			
+			DrawCanvas.saveAsSVG("blasonSVG/"+fichierBlason+".svg", grouper.svg());
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}	
@@ -215,20 +240,20 @@ public class BlasonXml {
 
 	}
 	public static void listePoints(ArrayList<Superposable> noeud, ArrayList<Point> points,ArrayList<String>lettresEtPoints) {
-        try {
-            Superposable superposable = (Superposable)noeud;
-            Forme forme = (Forme)superposable;
-            for (Object o : forme) {
-            	lettresEtPoints.add(o.toString());
-                try {
-                    Point p = (Point)o;
-                    points.add(p);
-                } catch (ClassCastException e) {}
-            }
-        } catch (ClassCastException e) {
-            for (Superposable o : noeud) {
-                listePoints((ArrayList<Superposable>)o, points,lettresEtPoints);
-            }
-        }
-    }
+		try {
+			Superposable superposable = (Superposable)noeud;
+			Forme forme = (Forme)superposable;
+			for (Object o : forme) {
+				lettresEtPoints.add(o.toString());
+				try {
+					Point p = (Point)o;
+					points.add(p);
+				} catch (ClassCastException e) {}
+			}
+		} catch (ClassCastException e) {
+			for (Superposable o : noeud) {
+				listePoints((ArrayList<Superposable>)o, points,lettresEtPoints);
+			}
+		}
+	}
 }
