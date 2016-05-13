@@ -18,7 +18,7 @@ attributs :
 type="" , facultatif 
 les type existant sont :  "echequier"
 email =""  , obligatoire 
-les emails reconnu sont: "rouge" "or" "argent" "sable" "azur" 
+les emails reconnu sont: "gueules" "or" "argent" "sable" "azur" "orange" "sinople" "carnation" "pourpre"
 emailImpair="" , emailPair="", facultatif, seulement quand c'est un echequier 
 balise :
 <figure>, correspond à une figure qui sera modifier lors du chargement 
