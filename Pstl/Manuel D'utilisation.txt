@@ -1,5 +1,7 @@
 Mannuel d'utilisation :
 //voir le dossier samplesXML pour avoir des exemples d'utilisation
+//la description du blason ce fait de façon éclaté , les calque seront superposé selon l'ordre de description de bas en haut 
+//les calcul ce font sur un blason de taille 100*100 pour faciliter le calcul , le resultat est agrandi à l'echelle 10 en svg
 Pour décrire un blason : 
 balise :
 <blason>, englobe le tout 
