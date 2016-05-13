@@ -6,13 +6,13 @@ Pour décrire un blason :
 balise :
 <blason>, englobe le tout 
 ces attributs : 
-description="texte" , la description du blason qui sera afficher sur la sortie standard su programme 
+description="texte" , la description du blason qui sera afficher sur la sortie standard du programme 
 balise : 
 <charger> , balise principale pour chargé les champ et figures 
-Peut contenir soit un champ, soit une un champs et une figure , soit seulement une figure dans le cas des echequier 
+Peut contenir soit un champ, soit un champs et une figure , soit seulement une figure dans le cas des echequier 
 Pas d'attributs 
 balise :
-<champ> , correspond à une piéce ou une zone qui sera placé tel quel sur l'écu(avec les valeurs absolus) 
+<champ> , correspond à une piéce ou une zone qui sera placé tel quel sur l'écu (avec les valeurs absolus) 
 la valeur est une liste de point entre parenthése (x,y)(w,z)....
 attributs : 
 type="" , facultatif 
@@ -24,7 +24,7 @@ balise :
 <figure>, correspond à une figure qui sera modifier lors du chargement 
 attributs : 
 type="" , obligatoire 
-les types sont : "svg" et "poly", au cas ou le type serai svg , la valuer et le nom du fichier (les fichiers ce trouve dans imageSVG)
+les types sont : "svg" et "poly", au cas ou le type serai svg , la valeur est le nom du fichier sous la forme "meuble.svg" (les fichiers ce trouve dans imageSVG)
 au cas ou le type serai poly, la valeur est une liste de point entre parenthése (x,y)(w,z)....
 email="" comme pour champ 
 cible="" , au cas ou l'écu est un echequier , cible permet de determiner les partie qui seront charger . 
