@@ -229,13 +229,14 @@ public class BlasonXml {
 		try {
 			parser = new Parser(nomFichier);
 			Image image = parser.image();
-			image.recursion();
+			//image.recursion();
 			listePoints(image,svgListPoints,forme) ; 
 			//image.sauvegarder("TestForme.svg");
 		} catch (JDOMException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		//System.out.println(svgListPoints);
 		return svgListPoints;
 
 	}
@@ -243,15 +244,19 @@ public class BlasonXml {
 		try {
 			Superposable superposable = (Superposable)noeud;
 			Forme forme = (Forme)superposable;
+			System.out.println(forme);
 			for (Object o : forme) {
 				lettresEtPoints.add(o.toString());
 				try {
 					Point p = (Point)o;
 					points.add(p);
-				} catch (ClassCastException e) {}
+				} catch (ClassCastException e) {
+					
+				}
 			}
 		} catch (ClassCastException e) {
 			for (Superposable o : noeud) {
+				//System.out.println(points);
 				listePoints((ArrayList<Superposable>)o, points,lettresEtPoints);
 			}
 		}

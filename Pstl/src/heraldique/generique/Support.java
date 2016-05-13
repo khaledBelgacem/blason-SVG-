@@ -357,7 +357,7 @@ public class Support extends ConvexPolygon {
 			support.homothetie(coeff);
 		}
 		//else // un support on ne change pas ca taille 
-			//support.points = support.originalPoints ; 
+		//support.points = support.originalPoints ; 
 
 	}
 
@@ -385,18 +385,26 @@ public class Support extends ConvexPolygon {
 			int idf=0;  
 			int idp=0 ; 
 			sb.append("\"M " );
-			//sb.append("\""); 
-			while(idf<forme.size()){
+			while(idf<forme.size() && idp<points.size()){
 				try
 				{
-				  Double.parseDouble(forme.get(idf).split(",")[0]);
-				  sb.append(this.points.get(idp).x() + " " + this.points.get(idp).y());
+					Double.parseDouble(forme.get(idf).split(",")[0]);
+					sb.append(this.points.get(idp).x() + " " + this.points.get(idp).y());
 					idp=idp+1; 
 					idf=idf+1;
 				}
 				catch(NumberFormatException e)
 				{
 					sb.append(" "+forme.get(idf)+" ");
+					if (forme.get(idf).equals("Z")){
+						if (this.rotation!=0){
+							sb.append(" Z \" stroke=\"" + couleur + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+						}
+						else 
+							sb.append(" Z \" stroke=\"" + couleur + "\" fill=\"" + couleur + "\"/>");
+						sb.append("\n");
+						sb.append("<path d=\"");
+					}
 					idf=idf+1;
 				}
 			}
@@ -411,4 +419,3 @@ public class Support extends ConvexPolygon {
 		return sb.toString();
 	}
 }
-	
