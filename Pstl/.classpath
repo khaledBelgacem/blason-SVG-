@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-<<<<<<< HEAD:Pstl/.classpath
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_77"/>
 	<classpathentry kind="lib" path="/root/workspace/Pstl/jdom/jdom-2.0.6.jar"/>
-	<classpathentry kind="lib" path="/root/workspace/Pstl/batik-1.8/batik-1.8.jar"/>
-=======
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Daniel/workspace/PSTL/jdom/jdom-2.0.6.jar"/>
-	<classpathentry kind="lib" path="batik-1.8/batik-1.8.jar"/>
->>>>>>> 33d747456885be5fc157837dafe2277dcfae6924:.classpath
 	<classpathentry kind="output" path="bin"/>
 </classpath>

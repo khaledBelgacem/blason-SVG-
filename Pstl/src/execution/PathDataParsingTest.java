@@ -82,7 +82,7 @@ public class PathDataParsingTest {
 				Character caractere = matcher.group().charAt(0);
 
 				if (nombrePoints != 0) {
-					System.out.println("Erreur, nombre de points non épuisés avant lectuure d'une nouvelle commande path");
+					System.out.println("Erreur, nombre de points non ï¿½puisï¿½s avant lectuure d'une nouvelle commande path");
 					return;
 				}
 
@@ -166,7 +166,7 @@ public class PathDataParsingTest {
 				if (parametres != 7) {
 					nombrePoints = parametres/2;
 				} else {
-					System.out.println("Commande path A non traitée !");
+					System.out.println("Commande path A non traitï¿½e !");
 				}
 
 				objets.add(caractere);
@@ -212,7 +212,7 @@ public class PathDataParsingTest {
 				Character caractere = (Character)o;
 
 				if (nombrePoints != 0) {
-					System.out.println("Erreur, nombre de points non épuisés avant lecture d'une nouvelle commande path");
+					System.out.println("Erreur, nombre de points non ï¿½puisï¿½s avant lecture d'une nouvelle commande path");
 					return;
 				}
 
@@ -296,7 +296,7 @@ public class PathDataParsingTest {
 				if (parametres != 7) {
 					nombrePoints = parametres/2;
 				} else {
-					System.out.println("Commande path A non traitée !");
+					System.out.println("Commande path A non traitï¿½e !");
 				}
 				
 				System.out.println(caractere);

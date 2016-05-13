@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <blason description=" d'azur au chevron d'or accompagné de trois étoiles d'argent ">
 	<charger>
-	<champ email="azur">(0,0)(0,100)(100,100)(100,0)</champ>
+		<champ email="azur">(0,0)(0,100)(100,100)(100,0)</champ>
 	</charger>
 	<charger>
 		<champ email="argent">(0,80)(0,100)(10,100)(50,70)(90,100)(100,100)(100,80)(50,30)</champ>

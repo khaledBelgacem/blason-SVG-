@@ -17,7 +17,7 @@ public class Canvas extends ConvexPolygon {
 	
 	/***
 	 * Constructeur de canvas
-	 * @param points Une liste de points définisant la surface du canvas
+	 * @param points Une liste de points dï¿½finisant la surface du canvas
 	 */
 	public Canvas(ArrayList<Point> points) {
 		super(points);
@@ -26,7 +26,7 @@ public class Canvas extends ConvexPolygon {
 	
 	/***
 	 * Constructeur de canvas
-	 * @param canvas Un canvas à copier
+	 * @param canvas Un canvas ï¿½ copier
 	 */
 	public Canvas(Canvas canvas) {
 		super(new ArrayList<Point>(canvas.points()));
@@ -40,7 +40,7 @@ public class Canvas extends ConvexPolygon {
 //		if (father == null)
 //			return;
 //		/**
-//		 * Construction d'un rectangle qui contient le polygone convexe à adapter au père.
+//		 * Construction d'un rectangle qui contient le polygone convexe ï¿½ adapter au pï¿½re.
 //		 * A - B
 //		 * | T |
 //		 * D - C
@@ -53,7 +53,7 @@ public class Canvas extends ConvexPolygon {
 //		boxContainerThis.add(new Point(aklToussainPolygon.get(0).x(), aklToussainPolygon.get(3).y())); // D : 3
 //				
 //		/**
-//		 * Construction d'un rectangle qui contient le polygone convexe du père.
+//		 * Construction d'un rectangle qui contient le polygone convexe du pï¿½re.
 //		 * A - B
 //		 * | F |
 //		 * D - C
@@ -66,7 +66,7 @@ public class Canvas extends ConvexPolygon {
 //		boxContainerFather.add(new Point(aklToussainPolygon.get(0).x(), aklToussainPolygon.get(3).y())); // D : 3
 //		
 //		Line TB = new Line(center(), boxContainerThis.get(1));
-//		Line BC = new Line(boxContainerFather.get(1), boxContainerFather.get(2)); // Vecteur box du père.
+//		Line BC = new Line(boxContainerFather.get(1), boxContainerFather.get(2)); // Vecteur box du pï¿½re.
 //		Point I = Line.intersection(TB, BC);
 //		
 //		Vector TI = new Vector(center(), I);
@@ -146,7 +146,7 @@ public class Canvas extends ConvexPolygon {
 				if (i != null) {
 					Vector ci = new Vector(c, i);
 					if (Precision.areApproximatelyEquals(Vector.cross(r, ci), 0, 9)) {
-						// Stockage du plus petit vecteur ci de même sens que le rayon
+						// Stockage du plus petit vecteur ci de mï¿½me sens que le rayon
 						if (a == null && b == null) {
 							a = r;
 							b = ci;
@@ -158,7 +158,7 @@ public class Canvas extends ConvexPolygon {
 				}
 			}
 			
-			// Choisir le r le plus grand parmi les couples de (r,ci) où ci est le plus petit calculé
+			// Choisir le r le plus grand parmi les couples de (r,ci) oï¿½ ci est le plus petit calculï¿½
 			if (fa == null && fb == null) {
 				fa = a;
 				fb = b;
@@ -193,7 +193,7 @@ public class Canvas extends ConvexPolygon {
 	
 	/***
 	 * Affecte un canvas dans le canvas courant en centrant son centre de masse.
-	 * @param canvas Canevas à ajouter au courant. 
+	 * @param canvas Canevas ï¿½ ajouter au courant. 
 	 */
 	public void charge(Canvas canvas) {
 		Point A = center();
@@ -218,8 +218,8 @@ public class Canvas extends ConvexPolygon {
 	
 	/***
 	 * Translation du canvas
-	 * @param x Déplacement en abscisse
-	 * @param y Déplacement en ordonnée
+	 * @param x Dï¿½placement en abscisse
+	 * @param y Dï¿½placement en ordonnï¿½e
 	 */
 	public void translate(double x, double y) {
 //		System.out.println("x:" + x + "," + "y:" + y);
@@ -246,7 +246,7 @@ public class Canvas extends ConvexPolygon {
 	}
 	
 	/***
-	 * Homothétie par rapport au point de masse du canvas.
+	 * Homothï¿½tie par rapport au point de masse du canvas.
 	 * @param d Coefficient
 	 */
 	public void scale(double d) {
@@ -261,7 +261,7 @@ public class Canvas extends ConvexPolygon {
 	
 	/***
 	 * Chaine SVG traduisant le canvas.
-	 * @return Un chaine de caratères SVG
+	 * @return Un chaine de caratï¿½res SVG
 	 */
 	public String toSVG() {
 		StringBuffer sb = new StringBuffer();

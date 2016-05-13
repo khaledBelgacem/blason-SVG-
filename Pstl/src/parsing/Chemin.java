@@ -31,10 +31,10 @@ public class Chemin {
 				+ "[mlcsqtaz]|"	// Symboles relatifs
 				+ "[MLCSQTAZ]|" // Symboles absolus
 				+ "[+\\-]?(?:0|[1-9]\\d*)(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?|" // Notations exponentielles
-				+ "\\d+[.]\\d+|" // Décimaux positifs
-				+ "-\\d+[.]\\d+|" // Décimaux négatifs
+				+ "\\d+[.]\\d+|" // Dï¿½cimaux positifs
+				+ "-\\d+[.]\\d+|" // Dï¿½cimaux nï¿½gatifs
 				+ "\\d+|" // Entiers positifs
-				+ "-\\d+"); // Entiers négatifs
+				+ "-\\d+"); // Entiers nï¿½gatifs
 		matcher = pattern.matcher(this.d);
 		reference = new Point(0,0);
 		debut = new Point(0,0);
@@ -362,7 +362,7 @@ public class Chemin {
 				Character c = (Character)o;
 
 				if (compteur != 0)
-					throw new Error("Les paramètres de la commande " + caractere +  " sont inférieurs au nombre attendu.");
+					throw new Error("Les paramï¿½tres de la commande " + caractere +  " sont infï¿½rieurs au nombre attendu.");
 
 				caractere = c;
 
@@ -486,14 +486,14 @@ public class Chemin {
 					if (compteur == 0)
 						compteur = parametres;
 					if (relatif) {
-						if (compteur != 5) { // Cas spécial du 'A' ou 'a'
+						if (compteur != 5) { // Cas spï¿½cial du 'A' ou 'a'
 							p.x(p.x() + reference.x());
 							p.y(p.y() + reference.y());
 						}
 					} 
 					if (compteur == 1) {
 						reference = new Point(p);
-						if (caractere == 'm' || caractere == 'M') // A vérifier : cas de sous chemins multiples (m ... z) ... 
+						if (caractere == 'm' || caractere == 'M') // A vï¿½rifier : cas de sous chemins multiples (m ... z) ... 
 							debut = new Point(reference);
 					}
 					objects.add(new Point(p));
@@ -521,7 +521,7 @@ public class Chemin {
 							objects.add(new Integer(i));
 							compteur--;
 						} catch (ClassCastException noi) {
-							throw new Error("L'objet en cours n'a pas pu être caster correctement.");
+							throw new Error("L'objet en cours n'a pas pu ï¿½tre caster correctement.");
 						}
 					}
 				}
@@ -531,7 +531,7 @@ public class Chemin {
 		absolus.addAll(objects);
 
 		if (absolus.size() != originaux.size())
-			throw new Error("La taille de la liste absolu n'est plus identique à celle de d'origine.");
+			throw new Error("La taille de la liste absolu n'est plus identique ï¿½ celle de d'origine.");
 
 		if (debug) {
 			System.out.println();
@@ -587,7 +587,7 @@ public class Chemin {
 				Character c = (Character)o;
 
 				if (compteur != 0)
-					throw new Error("Les paramètres de la commande " + caractere +  " sont inférieurs au nombre attendu.");
+					throw new Error("Les paramï¿½tres de la commande " + caractere +  " sont infï¿½rieurs au nombre attendu.");
 
 				caractere = c;
 
@@ -719,10 +719,10 @@ public class Chemin {
 							reference = new Point(p);
 							premier = false;
 						} else {
-							if (compteur != 5) // Cas spécial du 'A' ou 'a'
+							if (compteur != 5) // Cas spï¿½cial du 'A' ou 'a'
 								reference = new Point(reference.x() + p.x(), reference.y() + p.y());
 						}
-						if (caractere == 'm' || caractere == 'M') {// A vérifier : cas de sous chemins multiples (m ... z) ...  
+						if (caractere == 'm' || caractere == 'M') {// A vï¿½rifier : cas de sous chemins multiples (m ... z) ...  
 							debut = new Point(reference);
 							objects.add(new Point(p));
 							compteur--;
@@ -754,7 +754,7 @@ public class Chemin {
 							objects.add(new Integer(i));
 							compteur--;
 						} catch (ClassCastException noi) {
-							throw new Error("L'objet en cours n'a pas pu être caster correctement.");
+							throw new Error("L'objet en cours n'a pas pu ï¿½tre caster correctement.");
 						}
 					}
 				}
@@ -764,7 +764,7 @@ public class Chemin {
 		this.relatifs.addAll(objects);
 
 		if (relatifs.size() != originaux.size())
-			throw new Error("La taille de la liste relatifs n'est plus identique à celle de d'origine.");
+			throw new Error("La taille de la liste relatifs n'est plus identique ï¿½ celle de d'origine.");
 
 		if (debug) {
 			System.out.println();

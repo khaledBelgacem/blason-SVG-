@@ -18,8 +18,8 @@ public class Circle {
 	 * 
 	 * Constructeur de cercle 
 	 * 
-	 * @param x La coordonnée en abscisse du centre du cercle
-	 * @param y La coordonnée en ordonnée du centre du cercle
+	 * @param x La coordonnï¿½e en abscisse du centre du cercle
+	 * @param y La coordonnï¿½e en ordonnï¿½e du centre du cercle
 	 * @param radius Le rayon du cercle
 	 */
 	
@@ -60,12 +60,12 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Permet de vérifier si un point est inclus dans le cercle (intérieur + bordure)
-	 * Attention ! L'imprécision due à l'utilisation des doubles est conservée mais 
-	 * dans le cas où le carré de la distance et le carré du rayon diffèrent de moins
-	 * d'un milliardième alors on consière que le point est dans le cercle.  
+	 * Permet de vï¿½rifier si un point est inclus dans le cercle (intï¿½rieur + bordure)
+	 * Attention ! L'imprï¿½cision due ï¿½ l'utilisation des doubles est conservï¿½e mais 
+	 * dans le cas oï¿½ le carrï¿½ de la distance et le carrï¿½ du rayon diffï¿½rent de moins
+	 * d'un milliardiï¿½me alors on consiï¿½re que le point est dans le cercle.  
 	 * 
-	 * @param p Le point à vérifier
+	 * @param p Le point ï¿½ vï¿½rifier
 	 * @return Vrai si le point est dans ou sur le cercle, sinon faux
 	 */
 		
@@ -82,7 +82,7 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Permet de vérifier si un point est sur le cercle
+	 * Permet de vï¿½rifier si un point est sur le cercle
 	 * 
 	 * @param p
 	 * @return Vrai si le point est sur le cercle, sinon faux
@@ -94,7 +94,7 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Permet de vérifier si un ensemble est inclus dans la cercle (intérieur + bordure)
+	 * Permet de vï¿½rifier si un ensemble est inclus dans la cercle (intï¿½rieur + bordure)
 	 * 
 	 * @param points Une liste de points
 	 * @return Vrai si tous les points sont inclus dans le cercle, sinon faux
@@ -113,9 +113,9 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Permet de déterminer les intersections en le cercle courrant et un autre cercle.
+	 * Permet de dï¿½terminer les intersections en le cercle courrant et un autre cercle.
 	 * 
-	 * @param c Un cercle à tester
+	 * @param c Un cercle ï¿½ tester
 	 * @return Une liste de points d'intersection
 	 * 
 	 */
@@ -179,11 +179,11 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Permet de déterminer les points d'intersection entre les le cercle courrant et une ligne.
+	 * Permet de dï¿½terminer les points d'intersection entre les le cercle courrant et une ligne.
 	 * 
-	 * @deprecated Dans le cas où la line n'est pas une fonction affine les résultats peuvent conduire à des erreurs. (A corriger)
+	 * @deprecated Dans le cas oï¿½ la line n'est pas une fonction affine les rï¿½sultats peuvent conduire ï¿½ des erreurs. (A corriger)
 	 * 
-	 * @param l Une ligne à tester
+	 * @param l Une ligne ï¿½ tester
 	 * @return Une liste de points d'intersection
 	 */
 	
@@ -210,11 +210,11 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Calcul le cercle circonscrit à 3 points
+	 * Calcul le cercle circonscrit ï¿½ 3 points
 	 * 
 	 * @param a Un premier point
 	 * @param b Un second point
-	 * @param c Un troisème point
+	 * @param c Un troisï¿½me point
 	 * @return Le cercle circonscrit aux 3 points
 	 */
 
@@ -246,13 +246,13 @@ public class Circle {
 	
 	/***
 	 * 
-	 * Retourne le cercle minimal à un ensemble de 3 points.
-	 * Ce cercle minimal est soit le cercle de diamètre le plus entre toutes les paires
-	 * de points dans le cas d'un triangle obtus et rectangle ou sinon le cercle circonscrit à celui-ci.  
+	 * Retourne le cercle minimal ï¿½ un ensemble de 3 points.
+	 * Ce cercle minimal est soit le cercle de diamï¿½tre le plus entre toutes les paires
+	 * de points dans le cas d'un triangle obtus et rectangle ou sinon le cercle circonscrit ï¿½ celui-ci.  
 	 * 
 	 * @param a Un premier point
 	 * @param b Un second point
-	 * @param c Un troisème point
+	 * @param c Un troisï¿½me point
 	 * @return Un cercle minimal
 	 */
 	

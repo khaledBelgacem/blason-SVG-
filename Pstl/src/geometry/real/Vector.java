@@ -8,7 +8,7 @@ public class Vector {
 	private double x;
 	
 	/***
-	 * Ordonnée du vecteur.
+	 * Ordonnï¿½e du vecteur.
 	 */
 	private double y;
 	
@@ -27,7 +27,7 @@ public class Vector {
 	 * Constructeur de vecteur.
 	 * 
 	 * @param x Abscisse du vecteur
-	 * @param y Ordonnée du vecteur
+	 * @param y Ordonnï¿½e du vecteur
 	 */
 	public Vector(double x, double y) {
 		this.x = x;
@@ -60,8 +60,8 @@ public class Vector {
 	}
 	
 	/***
-	 * Retourne l'ordonnée du vecteur.
-	 * @return l'ordonnée du vecteur
+	 * Retourne l'ordonnï¿½e du vecteur.
+	 * @return l'ordonnï¿½e du vecteur
 	 */
 	public double y() {
 		return y;
@@ -69,7 +69,7 @@ public class Vector {
 	
 	/***
 	 * Retourne la base du vecteur.
-	 * @return Le point à la base du vecteur
+	 * @return Le point ï¿½ la base du vecteur
 	 */
 	public Point a() {
 		return a;
@@ -77,7 +77,7 @@ public class Vector {
 	
 	/***
 	 * Retourne la pointe du vecteur.
-	 * @return Le point à la pointe du vecteur
+	 * @return Le point ï¿½ la pointe du vecteur
 	 */
 	public Point b() {
 		return b;
@@ -92,8 +92,8 @@ public class Vector {
 	}
 	
 	/***
-	 * Longueur du vecteur au carré.
-	 * @return le carré de la longueur du vecteur
+	 * Longueur du vecteur au carrï¿½.
+	 * @return le carrï¿½ de la longueur du vecteur
 	 */
 	
 	public double lengthSquare() {
@@ -122,9 +122,9 @@ public class Vector {
 	}
 	
 	/***
-	 * Homothétie sur le vecteur.
-	 * Seul la pointe est déplacée lors de l'opération, la base reste inchangée.
-	 * @param val Coefficient à appliquer sur le vercteur
+	 * Homothï¿½tie sur le vecteur.
+	 * Seul la pointe est dï¿½placï¿½e lors de l'opï¿½ration, la base reste inchangï¿½e.
+	 * @param val Coefficient ï¿½ appliquer sur le vercteur
 	 */
 	public void scale(double val) {
 		this.x *= val;

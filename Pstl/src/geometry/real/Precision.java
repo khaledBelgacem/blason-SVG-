@@ -4,14 +4,14 @@ public class Precision {
 	
 	/***
 	 * 
-	 * Fonction d'approximation d'une égalité entre deux doubles où a et b sont comparés
-	 * et n servant à définir la précision du résultat en terme de <em>"nombre de chiffres après
+	 * Fonction d'approximation d'une ï¿½galitï¿½ entre deux doubles oï¿½ a et b sont comparï¿½s
+	 * et n servant ï¿½ dï¿½finir la prï¿½cision du rï¿½sultat en terme de <em>"nombre de chiffres aprï¿½s
 	 * la vigule"</em>. 
 	 * 
 	 * @param a : Un double.
 	 * @param b : Un double.
-	 * @param n Un entier, nombre de chiffre à prendre en compte après la virgule.
-	 * @return Vrai si les deux nombres diffèrent de moins que la précision définie par n sinon faux. 
+	 * @param n Un entier, nombre de chiffre ï¿½ prendre en compte aprï¿½s la virgule.
+	 * @return Vrai si les deux nombres diffï¿½rent de moins que la prï¿½cision dï¿½finie par n sinon faux. 
 	 */
 	
 	public static boolean areApproximatelyEquals(double a, double b, int n) {
@@ -20,12 +20,12 @@ public class Precision {
 	
 	/***
 	 * 
-	 * Fonction d'approximation visant à tronquer un double en ne conservant que
-	 * n chiffres après la vigule.
+	 * Fonction d'approximation visant ï¿½ tronquer un double en ne conservant que
+	 * n chiffres aprï¿½s la vigule.
 	 * 
-	 * @param a : Un double à tronquer.
-	 * @param n : Le nombre de chiffres après la vigule à conserver.
-	 * @return Un double tronqué avec n chiffres après la virgule.
+	 * @param a : Un double ï¿½ tronquer.
+	 * @param n : Le nombre de chiffres aprï¿½s la vigule ï¿½ conserver.
+	 * @return Un double tronquï¿½ avec n chiffres aprï¿½s la virgule.
 	 */
 	
 	public static double truncate(double a, int n) {

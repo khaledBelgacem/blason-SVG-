@@ -29,9 +29,9 @@ public class Edge {
 	}
 	
 	/**
-	 * Retourne une liste d'arêtes composée de toutes les paires de points possible.
+	 * Retourne une liste d'arï¿½tes composï¿½e de toutes les paires de points possible.
 	 * @param points Une liste de points.
-	 * @return Une liste d'arêtes.
+	 * @return Une liste d'arï¿½tes.
 	 */
 	
 	public ArrayList<Edge> edges(ArrayList<Point> points) {
@@ -79,10 +79,10 @@ public class Edge {
 	}
 	
 	/**
-	 * Test d'égalité entre deux arêtes, elle sont considérées comme égale si elle diffèrent après le
-	 * 9 ème chiffre après la virgule.
-	 * @param edge Une arête à comparer.
-	 * @return Vrai si leur points sont très proche d'être égaux sinon faux.
+	 * Test d'ï¿½galitï¿½ entre deux arï¿½tes, elle sont considï¿½rï¿½es comme ï¿½gale si elle diffï¿½rent aprï¿½s le
+	 * 9 ï¿½me chiffre aprï¿½s la virgule.
+	 * @param edge Une arï¿½te ï¿½ comparer.
+	 * @return Vrai si leur points sont trï¿½s proche d'ï¿½tre ï¿½gaux sinon faux.
 	 */
 	public boolean equals(Edge edge) {
 		return (this.a.equals(edge.a) && this.b.equals(edge.b)) || (this.a.equals(edge.b) && this.b.equals(edge.a));

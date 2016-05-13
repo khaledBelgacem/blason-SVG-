@@ -2,7 +2,7 @@
 <blason description="d'argent au sautoir de sable charger de 5 etoile d'or ">
 	<charger>
 		<champ email="argent">(0,0)(0,100)(100,100)(100,0)</champ>
-	</charger>	
+	</charger>
 	<charger>
 		<champ email="sable">(30,0)(65,0)(65,35)(30,35)</champ>
 		<figure type="poly" email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
@@ -21,6 +21,6 @@
 	</charger>
 	<charger>
 		<champ email="sable">(65,35)(100,35)(100,65)(65,65)</champ>
-		<figure type="poly"  email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+		<figure type="poly" email="or">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
 	</charger>
 </blason>

@@ -40,9 +40,9 @@ public class Line extends Vector {
 	
 	/***
 	 * 
-	 * Retour de l'ordonnée à l'origine de la droite.
+	 * Retour de l'ordonnï¿½e ï¿½ l'origine de la droite.
 	 * 
-	 * @return Une ordonnée à l'origine non null, sinon la droite n'est pas une fonction.
+	 * @return Une ordonnï¿½e ï¿½ l'origine non null, sinon la droite n'est pas une fonction.
 	 */
 	
 	public Double intercept() {
@@ -53,10 +53,10 @@ public class Line extends Vector {
 	
 	/***
 	 * 
-	 * Retourne l'abcisse en fonction de l'ordonnée.
+	 * Retourne l'abcisse en fonction de l'ordonnï¿½e.
 	 * 
-	 * @param y Une ordonnée quelconque
-	 * @return L'abscisse au point d'ordonnée y
+	 * @param y Une ordonnï¿½e quelconque
+	 * @return L'abscisse au point d'ordonnï¿½e y
 	 */
 	
 	public Double abscissa(double y) {
@@ -67,10 +67,10 @@ public class Line extends Vector {
 	
 	/***
 	 * 
-	 * Retourne l'ordonnée en fonction de l'abscisse.
+	 * Retourne l'ordonnï¿½e en fonction de l'abscisse.
 	 * 
 	 * @param x Une abscisse quelconque
-	 * @return L'ordonnée au point d'abscisse x.
+	 * @return L'ordonnï¿½e au point d'abscisse x.
 	 */
 	
 	public Double ordinate(double x) {
@@ -117,7 +117,7 @@ public class Line extends Vector {
 	 * 
 	 * Le point d'intersection entre deux droites.
 	 * 
-	 * @param d Première droite
+	 * @param d Premiï¿½re droite
 	 * @param l Seconde droite
 	 * @return Le point d'intersection
 	 */

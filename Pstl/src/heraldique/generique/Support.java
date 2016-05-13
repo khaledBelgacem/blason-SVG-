@@ -54,6 +54,10 @@ public class Support extends ConvexPolygon {
 			this.email = Email.AZUR;
 			this.metal= Metal.AUCUN ;
 		}
+		else if(couleur.equals("argent")){
+			this.email = Email.AUCUN;
+			this.metal=Metal.ARGENT ; 
+		}
 		else if(couleur.equals("or")){
 			this.email = Email.AUCUN;
 			this.metal = Metal.OR;
@@ -62,12 +66,24 @@ public class Support extends ConvexPolygon {
 			this.email = Email.SABLE ;
 			this.metal= Metal.AUCUN ;
 		}
-		else if(couleur.equals("argent")){
-			this.email = Email.AUCUN;
-			this.metal=Metal.ARGENT ; 
+		else if(couleur.equals("orange")){
+			this.email =Email.ORANGE;
+			this.metal=Metal.AUCUN;
 		}
-		else if(couleur.equals("rouge")){
+		else if(couleur.equals("gueules")){
 			this.email =Email.GUEULES;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("pourpre")){
+			this.email =Email.POURPRE;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("carnation")){
+			this.email =Email.CARNATION;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("sinople")){
+			this.email =Email.SINOPLE;
 			this.metal=Metal.AUCUN;
 		}
 		else if(couleur.equals("transparent")) {
@@ -85,6 +101,10 @@ public class Support extends ConvexPolygon {
 			this.email = Email.AZUR;
 			this.metal= Metal.AUCUN ;
 		}
+		else if(couleur.equals("argent")){
+			this.email = Email.AUCUN;
+			this.metal=Metal.ARGENT ; 
+		}
 		else if(couleur.equals("or")){
 			this.email = Email.AUCUN;
 			this.metal = Metal.OR;
@@ -93,12 +113,24 @@ public class Support extends ConvexPolygon {
 			this.email = Email.SABLE ;
 			this.metal= Metal.AUCUN ;
 		}
-		else if(couleur.equals("argent")){
-			this.email = Email.AUCUN;
-			this.metal=Metal.ARGENT ; 
+		else if(couleur.equals("orange")){
+			this.email =Email.ORANGE;
+			this.metal=Metal.AUCUN;
 		}
-		else if(couleur.equals("rouge")){
+		else if(couleur.equals("gueules")){
 			this.email =Email.GUEULES;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("pourpre")){
+			this.email =Email.POURPRE;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("carnation")){
+			this.email =Email.CARNATION;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("sinople")){
+			this.email =Email.SINOPLE;
 			this.metal=Metal.AUCUN;
 		}
 		else if(couleur.equals("transparent")) {
@@ -126,6 +158,10 @@ public class Support extends ConvexPolygon {
 			this.email = Email.AZUR;
 			this.metal= Metal.AUCUN ;
 		}
+		else if(couleur.equals("argent")){
+			this.email = Email.AUCUN;
+			this.metal=Metal.ARGENT ; 
+		}
 		else if(couleur.equals("or")){
 			this.email = Email.AUCUN;
 			this.metal = Metal.OR;
@@ -134,12 +170,24 @@ public class Support extends ConvexPolygon {
 			this.email = Email.SABLE ;
 			this.metal= Metal.AUCUN ;
 		}
-		else if(couleur.equals("argent")){
-			this.email = Email.AUCUN;
-			this.metal=Metal.ARGENT ; 
+		else if(couleur.equals("orange")){
+			this.email =Email.ORANGE;
+			this.metal=Metal.AUCUN;
 		}
-		else if(couleur.equals("rouge")){
+		else if(couleur.equals("gueules")){
 			this.email =Email.GUEULES;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("pourpre")){
+			this.email =Email.POURPRE;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("carnation")){
+			this.email =Email.CARNATION;
+			this.metal=Metal.AUCUN;
+		}
+		else if(couleur.equals("sinople")){
+			this.email =Email.SINOPLE;
 			this.metal=Metal.AUCUN;
 		}
 		else if(couleur.equals("transparent")) {
