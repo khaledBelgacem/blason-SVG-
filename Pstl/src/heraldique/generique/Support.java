@@ -7,8 +7,6 @@ import geometry.real.Line;
 import geometry.real.Point;
 import geometry.real.Precision;
 import geometry.real.Vector;
-import heraldique.Besant;
-import heraldique.Tourteau;
 import heraldique.enumeration.Email;
 import heraldique.enumeration.Metal;
 
@@ -319,32 +317,6 @@ public class Support extends ConvexPolygon {
 		homothetie(coefficient*0.8);
 		return coefficient*0.8 ; 
 	}
-	public void charge(Besant b){
-		ArrayList<Point>disk = new ArrayList<Point>() ; 
-		disk.add(b.getCentre()) ; 
-		disk.add(new Point(b.getCentre().x(),b.getCentre().y()+b.getRayon())) ; 
-		disk.add(new Point(b.getCentre().x(),b.getCentre().y()-b.getRayon())) ; 
-		disk.add(new Point(b.getCentre().x()+b.getRayon(),b.getCentre().y())) ; 
-		disk.add(new Point(b.getCentre().x()-b.getRayon(),b.getCentre().y())) ; 
-		Support besant = new Support(disk,b.getMetal())  ; 
-		dessus = besant ; 
-		besant.dessous = this ; 
-		centrer(besant) ;
-		besant.adapter(); 
-	}
-	public void charge(Tourteau b){
-		ArrayList<Point>disk = new ArrayList<Point>() ; 
-		disk.add(b.getCentre()) ; 
-		disk.add(new Point(b.getCentre().x(),b.getCentre().y()+b.getRayon())) ; 
-		disk.add(new Point(b.getCentre().x(),b.getCentre().y()-b.getRayon())) ; 
-		disk.add(new Point(b.getCentre().x()+b.getRayon(),b.getCentre().y())) ; 
-		disk.add(new Point(b.getCentre().x()-b.getRayon(),b.getCentre().y())) ; 
-		Support tourt = new Support(disk,b.getEmail())  ; 
-		dessus = tourt ; 
-		tourt.dessous = this ; 
-		centrer(tourt) ;
-		tourt.adapter(); 
-	}
 	public void charge(Support support,int flag) {
 		double coeff ; 
 		dessus = support;
@@ -377,31 +349,33 @@ public class Support extends ConvexPolygon {
 		sb.append("\n//nouvelle forme de couleur "+couleur+"\n"); 
 		sb.append("<path d=");
 		if(this.forme.size()==0){
-			sb.append("\"M " + this.points.get(0).x() + " " + this.points.get(0).y());
+			sb.append("\"M " + this.points.get(0).x() + " " + this.points.get(0).y() + " ");
 			for (i = debut+1; i < this.points.size(); i++)
-				sb.append(" L " + this.points.get(i).x() + " " + this.points.get(i).y());
+				sb.append(" L " + this.points.get(i).x() + " " + this.points.get(i).y() + " ");
 		}
 		else {
 			int idf=0;  
-			int idp=0 ; 
-			sb.append("\"M " );
+			int idp=0 ;
+//			if (forme.get(idf).equals("M"))
+//				sb.append("\"M " );
+			sb.append("\" ");
 			while(idf<forme.size() && idp<points.size()){
 				try
 				{
 					Double.parseDouble(forme.get(idf).split(",")[0]);
-					sb.append(this.points.get(idp).x() + " " + this.points.get(idp).y());
+					sb.append(this.points.get(idp).x() + " " + this.points.get(idp).y() + " ");
 					idp=idp+1; 
 					idf=idf+1;
 				}
 				catch(NumberFormatException e)
 				{
-					sb.append(" "+forme.get(idf)+" ");
+					sb.append(forme.get(idf)+" ");
 					if (forme.get(idf).equals("Z")){
 						if (this.rotation!=0){
-							sb.append(" Z \" stroke=\"" + couleur + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+							sb.append("\" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
 						}
 						else 
-							sb.append(" Z \" stroke=\"" + couleur + "\" fill=\"" + couleur + "\"/>");
+							sb.append("\" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" fill=\"" + couleur + "\"/>");
 						sb.append("\n");
 						sb.append("<path d=\"");
 					}
@@ -410,10 +384,10 @@ public class Support extends ConvexPolygon {
 			}
 		}
 		if (this.rotation!=0){
-			sb.append(" Z \" stroke=\"" + couleur + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+			sb.append("Z \" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
 		}
 		else 
-			sb.append(" Z \" stroke=\"" + couleur + "\" fill=\"" + couleur + "\"/>");
+			sb.append(" Z \" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" fill=\"" + couleur + "\"/>");
 		if (dessus != null)
 			sb.append(dessus.svg());
 		return sb.toString();

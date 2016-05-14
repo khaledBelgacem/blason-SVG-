@@ -229,7 +229,7 @@ public class BlasonXml {
 		try {
 			parser = new Parser(nomFichier);
 			Image image = parser.image();
-			//image.recursion();
+			// image.recursion();
 			listePoints(image,svgListPoints,forme) ; 
 			//image.sauvegarder("TestForme.svg");
 		} catch (JDOMException | IOException e) {
@@ -244,7 +244,6 @@ public class BlasonXml {
 		try {
 			Superposable superposable = (Superposable)noeud;
 			Forme forme = (Forme)superposable;
-			System.out.println(forme);
 			for (Object o : forme) {
 				lettresEtPoints.add(o.toString());
 				try {
