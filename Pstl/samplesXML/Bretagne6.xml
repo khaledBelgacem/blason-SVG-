@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<blason
+	description="D'azur à la bande d'argent accompagnée de deux molettes de même  ">
+	<charger>
+		<champ email="azur">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+		<charger>
+		<champ email="argent">(0,20)(0,0)(20,0)(100,80)(100,100)(80,100)</champ>
+	</charger>
+	<charger>
+		<champ email="transparent">(20,0)(100,0)(100,80)</champ>
+		<figure email="argent" type="svg">Molette.svg</figure>
+	</charger>
+	<charger>
+		<champ email="transparent">(0,20)(0,100)(80,100)</champ>
+		<figure email="argent" type="svg">Molette.svg</figure>
+	</charger>
+</blason>
