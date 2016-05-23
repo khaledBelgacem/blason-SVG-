@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<blason
+	description="Ecartelé d'argent et d'azur, l'azur chargé d'une rose d'or ">
+	<charger>
+		<champ email="argent">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+	<charger>
+		<champ email="transparent">(0,0)(33,0)(33,35)(0,35)</champ>
+		<figure email="sable" type="svg">Coquille.svg</figure>
+	</charger>
+	<charger>
+		<champ email="transparent">(33,0)(66,0)(66,35)(33,35)</champ>
+		<figure email="sable" type="svg">Coquille.svg</figure>
+	</charger>
+	<charger>
+		<champ email="transparent">(66,0)(100,0)(100,35)(66,35)</champ>
+		<figure email="sable" type="svg">Coquille.svg</figure>
+	</charger>
+	<charger>
+		<champ email="transparent">(0,35)(100,35)(100,80)(0,80)</champ>
+		<figure email="sable" type="svg">léopard_passant.svg</figure>
+	</charger>
+</blason>
