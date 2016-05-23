@@ -17,7 +17,7 @@ import parsing.Superposable;
 public class Fragmentation {
 	
 	public static void main(String[] args) {
-		testFragmentation("imagesSVG/Merlette.svg", "MERLETTE");
+		testFragmentation("b.svg", "BLASONTEST");
 	}
 	
 	public static void testFragmentation(String fichier, String dossier) {

@@ -2,12 +2,12 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='2000' height='2000'>
 	<g transform="scale(10)">
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.05px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur blue
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.05px" fill="blue"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="blue"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.05px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur white
-<path d="M 0.0 35.0  L 100.0 35.0  L 100.0 65.0  L 0.0 65.0  Z " stroke="black" stroke-width ="0.05px" fill="white"/>
+<path d="M 0.0 35.0  L 100.0 35.0  L 100.0 65.0  L 0.0 65.0  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
 //nouvelle forme de couleur orange
-<path d="M 50.0 37.99999999999997  L 52.72727272727273 46.18181818181816  L 60.909090909090914 46.18181818181816  L 55.45454545454545 51.63636363636362  L 58.18181818181819 59.8181818181818  L 50.0 54.363636363636346  L 41.81818181818181 59.8181818181818  L 44.54545454545455 51.63636363636362  L 39.090909090909086 46.18181818181816  L 47.27272727272727 46.18181818181816 Z " stroke="black" stroke-width ="0.05px" transform="rotate(45,49.99999999999999,49.99999999999998)" fill="orange"/></g></svg>
+<path d="M 50.0 37.99999999999997  L 52.72727272727273 46.18181818181816  L 60.909090909090914 46.18181818181816  L 55.45454545454545 51.63636363636362  L 58.18181818181819 59.8181818181818  L 50.0 54.363636363636346  L 41.81818181818181 59.8181818181818  L 44.54545454545455 51.63636363636362  L 39.090909090909086 46.18181818181816  L 47.27272727272727 46.18181818181816 Z " stroke="black" stroke-width ="0.01px" transform="rotate(45,49.99999999999999,49.99999999999998)" fill="orange"/></g></svg>

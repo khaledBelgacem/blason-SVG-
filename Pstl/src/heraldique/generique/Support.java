@@ -372,10 +372,10 @@ public class Support extends ConvexPolygon {
 					sb.append(forme.get(idf)+" ");
 					if (forme.get(idf).equals("Z")){
 						if (this.rotation!=0){
-							sb.append("\" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+							sb.append("\" stroke=\"" + "black" + "\" stroke-width =\"0.1px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
 						}
 						else 
-							sb.append("\" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" fill=\"" + couleur + "\"/>");
+							sb.append("\" stroke=\"" + "black" + "\" stroke-width =\"0.1px" + "\" fill=\"" + couleur + "\"/>");
 						sb.append("\n");
 						sb.append("<path d=\"");
 					}
@@ -384,10 +384,10 @@ public class Support extends ConvexPolygon {
 			}
 		}
 		if (this.rotation!=0){
-			sb.append("Z \" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+			sb.append("Z \" stroke=\"" + "black" + "\" stroke-width =\"0.01px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
 		}
 		else 
-			sb.append(" Z \" stroke=\"" + "black" + "\" stroke-width =\"0.05px" + "\" fill=\"" + couleur + "\"/>");
+			sb.append(" Z \" stroke=\"" + "black" + "\" stroke-width =\"0.01px" + "\" fill=\"" + couleur + "\"/>");
 		if (dessus != null)
 			sb.append(dessus.svg());
 		return sb.toString();

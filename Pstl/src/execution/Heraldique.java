@@ -6,7 +6,7 @@ import heraldique.generique.BlasonXml;
 public class Heraldique {
 
 	public static void main(String[] args) {
-		BlasonXml bl ; 
+		BlasonXml bl ; 	
 		//programme principale 
 		String [] listeFichiers = listerRepertoire("samplesXML/") ; 
 		for(String fb : listeFichiers)

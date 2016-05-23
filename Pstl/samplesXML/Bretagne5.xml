@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<blason
+	description="Ecartelé d'argent et d'azur, l'azur chargé d'une rose d'or ">
+	<charger>
+		<champ email="argent">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+	<charger>
+		<champ email="transparent">(1,0)(99,0)(99,100)(1,100)</champ>
+		<figure email="sable" type="svg">Aigle_Bicéphale.svg</figure>
+	</charger>
+		<charger>
+		<champ email="gueules">(0,10)(0,0)(10,0)(100,90)(100,100)(90,100)</champ>
+	</charger>
+</blason>

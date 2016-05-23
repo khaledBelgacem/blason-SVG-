@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<blason
+	description="Ecartelé d'argent et d'azur, l'azur chargé d'une rose d'or ">
+	<charger>
+		<champ email="argent">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+	<charger>
+		<champ email="azur">(50,0)(100,0)(100,50)(50,50)</champ>
+		<figure email="or" type="svg">Rose.svg</figure>
+	</charger>
+	<charger>
+		<champ email="azur">(0,50)(50,50)(50,100)(0,100)</champ>
+		<figure email="or" type="svg">Rose.svg</figure>
+	</charger>
+</blason>

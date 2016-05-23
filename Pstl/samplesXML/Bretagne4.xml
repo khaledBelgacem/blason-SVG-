@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<blason
+	description="Ecartelé d'argent et d'azur, l'azur chargé d'une rose d'or ">
+	<charger>
+		<champ email="gueules">(0,0)(100,0)(100,100)(0,100)</champ>
+	</charger>
+	<charger>
+		<champ email="transparent">(1,0)(99,0)(99,100)(1,100)</champ>
+		<figure email="argent" type="svg">léopard_passant.svg</figure>
+	</charger>
+</blason>
