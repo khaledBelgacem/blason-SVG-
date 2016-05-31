@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='2000' height='2000'>
+	<g transform="scale(10)">
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur blue
+<path d="M 1.0 100.0  L 1.0 1.0  L 100.0 1.0  L 100.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="blue"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur rgba(0,0,0,0)
+<path d="M 1.0 100.0  L 1.0 1.0  L 100.0 1.0  L 100.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
+//nouvelle forme de couleur white
+<path d="M 50.5 10.899999999999885  L 59.5 37.89999999999989  L 86.50000000000001 37.89999999999989  L 68.5 55.8999999999999  L 77.50000000000001 82.89999999999992  L 50.5 64.8999999999999  L 23.49999999999999 82.89999999999992  L 32.49999999999999 55.8999999999999  L 14.499999999999986 37.89999999999989  L 41.5 37.89999999999989  Z " stroke="black" stroke-width ="0.1px" fill="white"/></g></svg>

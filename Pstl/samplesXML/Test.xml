@@ -1,0 +1,15 @@
+
+<blason
+ description="(azur (etoile argent))">
+<!-- charge -->
+<!-- plain -->
+<charger>
+<champ email="azur">(1,100)(100,100)(100,1)(1,1)</champ>
+</charger>
+<!-- etoile -->
+<charger>
+<champ email="transparent">(1,100)(100,100)(100,1)(1,1)</champ>
+<figure type="poly" email="argent">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+</charger>
+</blason>
+

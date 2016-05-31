@@ -205,8 +205,10 @@ public class Support extends ConvexPolygon {
 		}
 		else 
 			this.rotation=0 ;
-
-		this.forme=forme ;
+		
+		
+		this.forme=new ArrayList<String>(forme);
+		
 	}
 	public Support(double largeur, double hauteur) {
 		super();
@@ -356,8 +358,6 @@ public class Support extends ConvexPolygon {
 		else {
 			int idf=0;  
 			int idp=0 ;
-//			if (forme.get(idf).equals("M"))
-//				sb.append("\"M " );
 			sb.append("\" ");
 			while(idf<forme.size() && idp<points.size()){
 				try
@@ -383,11 +383,16 @@ public class Support extends ConvexPolygon {
 				}
 			}
 		}
+		double stroke ; 
+		if (couleur.equals("rgba(0,0,0,0)"))
+			stroke=0.03 ; 
+		else 
+			stroke = 0.1 ;
 		if (this.rotation!=0){
-			sb.append("Z \" stroke=\"" + "black" + "\" stroke-width =\"0.01px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
+			sb.append("Z \" stroke=\"" + "black" + "\" stroke-width =\""+stroke+"px" + "\" transform=\"rotate("+ this.rotation+","+this.center().x()+","+ this.center().y()+")\" fill=\"" + couleur + "\"/>");
 		}
 		else 
-			sb.append(" Z \" stroke=\"" + "black" + "\" stroke-width =\"0.01px" + "\" fill=\"" + couleur + "\"/>");
+			sb.append(" Z \" stroke=\"" + "black" + "\" stroke-width =\""+stroke+"px" + "\" fill=\"" + couleur + "\"/>");
 		if (dessus != null)
 			sb.append(dessus.svg());
 		return sb.toString();
