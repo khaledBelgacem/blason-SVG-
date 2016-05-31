@@ -2,434 +2,434 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='2000' height='2000'>
 	<g transform="scale(10)">
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 0.0  L 20.0 0.0  L 20.0 20.0  L 0.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 2.000000000000001  L 11.818181818181818 7.454545454545455  L 17.272727272727273 7.454545454545455  L 13.636363636363637 11.090909090909092  L 15.454545454545453 16.545454545454547  L 10.0 12.90909090909091  L 4.545454545454546 16.545454545454547  L 6.363636363636363 11.090909090909092  L 2.7272727272727275 7.454545454545455  L 8.181818181818182 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 20.0  L 20.0 20.0  L 20.0 40.0  L 0.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 40.0  L 20.0 40.0  L 20.0 60.0  L 0.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 0.0 60.0  L 20.0 60.0  L 20.0 80.0  L 0.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 0.0 80.0  L 20.0 80.0  L 20.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 10.0 81.99999999999999  L 11.818181818181817 87.45454545454544  L 17.272727272727263 87.45454545454544  L 13.636363636363631 91.09090909090907  L 15.454545454545448 96.54545454545452  L 10.0 92.90909090909088  L 4.545454545454552 96.54545454545452  L 6.363636363636369 91.09090909090907  L 2.7272727272727364 87.45454545454544  L 8.181818181818183 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 0.0  L 40.0 0.0  L 40.0 20.0  L 20.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 20.0  L 40.0 20.0  L 40.0 40.0  L 20.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 40.0  L 40.0 40.0  L 40.0 60.0  L 20.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 20.0 60.0  L 40.0 60.0  L 40.0 80.0  L 20.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 20.0 80.0  L 40.0 80.0  L 40.0 100.0  L 20.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 0.0  L 60.0 0.0  L 60.0 20.0  L 40.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 20.0  L 60.0 20.0  L 60.0 40.0  L 40.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 40.0  L 60.0 40.0  L 60.0 60.0  L 40.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 40.0 60.0  L 60.0 60.0  L 60.0 80.0  L 40.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 40.0 80.0  L 60.0 80.0  L 60.0 100.0  L 40.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 0.0  L 80.0 0.0  L 80.0 20.0  L 60.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 20.0  L 80.0 20.0  L 80.0 40.0  L 60.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 40.0  L 80.0 40.0  L 80.0 60.0  L 60.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 60.0 60.0  L 80.0 60.0  L 80.0 80.0  L 60.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 60.0 80.0  L 80.0 80.0  L 80.0 100.0  L 60.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 0.0  L 100.0 0.0  L 100.0 20.0  L 80.0 20.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.01px" fill="white"/>
+<path d="M 90.0 2.000000000000001  L 91.81818181818181 7.454545454545455  L 97.27272727272727 7.454545454545455  L 93.63636363636364 11.090909090909092  L 95.45454545454545 16.545454545454547  L 90.0 12.90909090909091  L 84.54545454545455 16.545454545454547  L 86.36363636363636 11.090909090909092  L 82.72727272727273 7.454545454545455  L 88.18181818181819 7.454545454545455  Z " stroke="black" stroke-width ="0.1px" fill="white"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 20.0  L 100.0 20.0  L 100.0 40.0  L 80.0 40.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 40.0  L 100.0 40.0  L 100.0 60.0  L 80.0 60.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur yellow
-<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.01px" fill="yellow"/>
+<path d="M 80.0 60.0  L 100.0 60.0  L 100.0 80.0  L 80.0 80.0  Z " stroke="black" stroke-width ="0.1px" fill="yellow"/>
 //nouvelle forme de couleur rgba(0,0,0,0)
-<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="rgba(0,0,0,0)"/>
+<path d="M 0.0 0.0  L 100.0 0.0  L 100.0 100.0  L 0.0 100.0  Z " stroke="black" stroke-width ="0.03px" fill="rgba(0,0,0,0)"/>
 //nouvelle forme de couleur red
-<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.01px" fill="red"/>
+<path d="M 80.0 80.0  L 100.0 80.0  L 100.0 100.0  L 80.0 100.0  Z " stroke="black" stroke-width ="0.1px" fill="red"/>
 //nouvelle forme de couleur white
-<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.01px" fill="white"/></g></svg>
+<path d="M 90.0 81.99999999999999  L 91.81818181818181 87.45454545454544  L 97.27272727272727 87.45454545454544  L 93.63636363636363 91.09090909090907  L 95.45454545454545 96.54545454545452  L 90.0 92.90909090909088  L 84.54545454545455 96.54545454545452  L 86.36363636363637 91.09090909090907  L 82.72727272727273 87.45454545454544  L 88.18181818181819 87.45454545454544  Z " stroke="black" stroke-width ="0.1px" fill="white"/></g></svg>

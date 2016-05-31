@@ -6,13 +6,13 @@
 	</charger>
 	<charger>
 		<champ email="transparent">(0,0)(100,0)(0,35)(100,35)</champ>
-		<figure type="poly" email="gueules">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+		<figure type="svg" email="or">Tour ajourée.svg</figure>
 	</charger>
 	<charger>
 		<champ email="argent">(0,35)(100,35)(100,65)(0,65)</champ>
 	</charger>
 	<charger>
 		<champ email="transparent">(0,65)(100,65)(100,100)(0,100)</champ>
-		<figure type="poly" email="gueules">(5,1)(6,4)(9,4)(7,6)(8,9)(5,7)(2,9)(3,6)(1,4)(4,4)</figure>
+		<figure type="svg" email="or">Quintefeuille.svg</figure>
 	</charger>
 </blason>

@@ -6,14 +6,14 @@
 	</charger>
 	<charger>
 		<champ email="transparent">(10,0)(50,0)(50,50)(10,50)</champ>
-		<figure email="or" type="svg">Coquille.svg</figure>
+		<figure email="argent" type="svg">Coquille.svg</figure>
 	</charger>
 	<charger>
 		<champ email="transparent">(50,0)(90,0)(90,50)(50,50)</champ>
-		<figure email="or" type="svg">Coquille.svg</figure>
+		<figure email="argent" type="svg">Coquille.svg</figure>
 	</charger>
 	<charger>
 		<champ email="transparent">(30,50)(70,50)(70,100)(30,100)</champ>
-		<figure email="or" type="svg">Coquille.svg</figure>
+		<figure email="argent" type="svg">Coquille.svg</figure>
 	</charger>
 </blason>

@@ -140,8 +140,9 @@ public class BlasonXml {
 									figurePoints.add(new Point(Double.parseDouble(p1),Double.parseDouble(p2))) ; 
 								}
 							}
-							if(svg==true)
-								sfigure = new Support(figurePoints,emailFigure,rotation,forme);
+							if(svg==true){
+									sfigure = new Support(figurePoints,emailFigure,rotation,forme);
+							}
 							else
 								sfigure = new Support(figurePoints,emailFigure,rotation);
 							schamp.charge(sfigure,1); 
@@ -151,6 +152,8 @@ public class BlasonXml {
 						figurePoints.clear();
 						figure = "" ; 
 						rotation="";
+						svg=false;
+						forme.clear();
 					}
 					else {
 						String color=emailImpair;
@@ -213,6 +216,8 @@ public class BlasonXml {
 							figurePoints.clear();
 							figure = "" ; 
 							rotation="";
+							svg=false;
+							forme.clear();
 						}  
 					}
 				}
